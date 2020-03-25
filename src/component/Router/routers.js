@@ -15,7 +15,14 @@
 /*   start URL for pages React  */
 
 export const HOME = '/';
-export const NEWS = '/vn/tintuc';
+export const MENUCATEGORY = '/san-pham';
+export const CATEGORY = '/ca-phe';
+export const PRODUCT = '/ca-phe-den-da';
+export const NEWS = '/tin-tuc';
+export const DETAILNEWS = '/thu-xin-lo-i-chi-nh-thu-c-khach-hang-le-va-n-tru-o-ng';
+export const TRACHNHIEM = '/trach-nhiem';
+export const ABOUT = '/gioi-thieu';
+export const CONTACT = '/lien-he';
 // export const ABOUT = '/about';
 // export const HEALTH = '/health';
 // export const FOOD = '/food';

@@ -1,81 +1,112 @@
 import React, { Component } from "react";
+import * as ROUTES from "../Router/routers";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class TopHome extends Component {
   render() {
     return (
-      <div>
-        <section className="contentTop">
-          <div className="imgContent">
-            <ul>
-              <li>
-                <div className="contentItem">
-                  <a href="#">
-                    <img src="img/hl_about.jpg" alt="About 1" />
-                  </a>
+      <section className="contentTop">
+        <div className="imgContent">
+          <ul>
+            <li>
+              <div className="slideshow-container">
+                <div className="mySlides fade">
+                  <div className="contentItem">
+                  <img src="img/hl_about.jpg" alt="About 1" />
+                  </div>
                 </div>
-              </li>
-              <li>
-                <div className="contentItem">
-                  <a href="#">
-                    <img src="img/hl_about2.jpg" alt="About 1" />
-                  </a>
-                  <div
-                    className="buttonItem"
-                    style={{
-                      position: "absolute",
-                      transform: "translateY(-149px)",
-                      right: "15%"
-                    }}
-                  >
-                    <button
-                      className="item1"
-                      style={{ float: "right", right: "40px" }}
+                <div className="mySlides fade">
+                  <div className="contentItem">
+                  <img src="img/hl_about4.png" alt="About 1" />
+                  </div>
+                </div>
+                <div className="mySlides fade">
+                  <div className="contentItem">
+                  <img src="img/VIET.Brand_Campaign_WEBBANNER.jpg" alt="about" />
+                    <div
+                      className="buttonItem"
+                      style={{
+                        right: "0px",
+                        position: "absolute",
+                        left: "59%",
+                        top: "72%",
+                        color: "#F0BB7B"
+                      }}
                     >
-                      KHÁM PHÁ THÊM
-                    </button>
+                      <button className="item2">CÙNG NHAU TỰ HÀO</button>
+                    </div>
                   </div>
                 </div>
-              </li>
-              <li>
-                <div className="contentItem">
-                  <a href="#">
-                    <img src="img/hl_about3.jpg" alt="About 1" />
-                  </a>
-                  <div
-                    className="buttonItem"
-                    style={{
-                      right: "0px",
-                      position: "absolute",
-                      transform: "translateY(-377%)",
-                      left: "22%"
-                    }}
+              </div>
+              <div
+                style={{
+                  textAlign: "center",
+                  position: "absolute",
+                  zIndex: 10,
+                  transform: "translateY(-100%)",
+                  left: "47%"
+                }}
+              >
+                <span className="dot" onclick="currentSlide(0)" />
+                <span className="dot" onclick="currentSlide(1)" />
+                <span className="dot" onclick="currentSlide(2)" />
+              </div>
+            </li>
+            <li>
+              <div className="contentItem">
+                <Link ><img src="img/hl_about2.jpg" alt="About 1" /></Link>
+                <div
+                  className="buttonItem"
+                  style={{
+                    position: "absolute",
+                    transform: "translateY(-149px)",
+                    right: "15%"
+                  }}
+                >
+                  <button
+                    className="item1"
+                    style={{ float: "right", right: "40px" }}
                   >
-                    <button className="item2">KHÁM PHÁ THÊM</button>
-                  </div>
+                    KHÁM PHÁ THÊM
+                  </button>
                 </div>
-              </li>
-              <li>
-                <div className="contentItem">
-                  <a href="#">
-                    <img src="img/hl_about4.png" alt="About 1" />
-                  </a>
-                  <div
-                    className="buttonItem"
-                    style={{
-                      bottom: "10%",
-                      float: "right",
-                      position: "absolute",
-                      left: "59%"
-                    }}
-                  >
-                    <button className="item3">KHÁM PHÁ THÊM</button>
-                  </div>
+              </div>
+            </li>
+            <li>
+              <div className="contentItem">
+                <Link ><img src="img/hl_about3.jpg" alt="About 1" /></Link>
+                <div
+                  className="buttonItem"
+                  style={{
+                    right: "0px",
+                    position: "absolute",
+                    transform: "translateY(-377%)",
+                    left: "22%"
+                  }}
+                >
+                  <button className="item2">KHÁM PHÁ THÊM</button>
                 </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </div>
+              </div>
+            </li>
+            <li>
+              <div className="contentItem">
+               <Link ><img src="img/hl_about4.png" alt="About 1" /></Link>
+                <div
+                  className="buttonItem"
+                  style={{
+                    bottom: "10%",
+                    float: "right",
+                    position: "absolute",
+                    left: "59%"
+                  }}
+                >
+                  <button className="item3">KHÁM PHÁ THÊM</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     );
   }
 }

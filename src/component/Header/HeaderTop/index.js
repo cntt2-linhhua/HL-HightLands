@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import * as ROUTES from  '../../Router/routers'
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 class HeaderTop extends Component {
   render() {
@@ -9,12 +11,10 @@ class HeaderTop extends Component {
             <div className="wrapper">
               <div className="logo">
                 <h1>
-                  <a href="#" target="_self" title="Hightlands Coffee">
-                    <img
+                  <Link to={ROUTES.HOME} ><img
                       src="https://highlandscoffee.com.vn/vnt_upload/weblink/logo.svg"
                       alt="Hightlands Coffee"
-                    />
-                  </a>
+                    /></Link>
                 </h1>
               </div>
               <div className="header-tools">
@@ -55,21 +55,17 @@ class HeaderTop extends Component {
                 <div className="menuTop hidden-sm hidden-xs">
                   <ul>
                     <li className="menu-list">
-                      <a href="home.html" target="_self">
-                        <span>QUÁN CÀ PHÊ</span>
-                      </a>
+                      <Link to={ROUTES.HOME} >QUÁN CÀ PHÊ</Link>
                     </li>
                     <li className="menu-mega">
-                      <a href="#" target="_self">
-                        <span>THỰC ĐƠN</span>
-                      </a>
+                      <Link to={ROUTES.MENUCATEGORY} >THỰC ĐƠN</Link>
                       <div className="menuMega">
                         <div className="col-12 col-sm-12 mega1">
                           <div className="grid">
                             <div className="col-9 col-sm-9 mega-left">
                               <ul className="listL">
                                 <li className="mega-item">
-                                  <a href="#">CÀ PHÊ</a>
+                                  <Link to={ROUTES.CATEGORY} >CÀ PHÊ</Link>
                                   <ul className="item-list">
                                     <li className="items">
                                       <i
