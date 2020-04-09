@@ -1,0 +1,110 @@
+.tt_content {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-top: 157px;
+}
+
+.tt_container {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+ul.tt_list {
+  display: block;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 28px;
+}
+
+li.tt_item {
+  display: inline-block;
+  width: 32%;
+  padding: 0 10px;
+  vertical-align: text-top;
+}
+
+.tt_tintuc {
+  display: block;
+  width: 100%;
+  padding: 30px 0 0 61px;
+  margin: 0;
+}
+
+.tt_tintuc h1 {
+  display: block;
+  font-size: 40px;
+  font-weight: bolder;
+  transform: translateY(27%);
+  color: #53382C;
+  font-family: initial;
+}
+
+h6.tt_tenItem {
+  display: block;
+  text-align: left;
+  padding: 20px 0 5px;
+  font-size: 15px;
+  font-family: initial;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #53382C;
+  margin: 0;
+}
+
+.tt_time {
+  display: block;
+  text-align: left;
+}
+
+span.tt_iconTime {
+  display: inline-block;
+  color: #B02B2E;
+  font-size: 13px;
+}
+
+.tt_time p {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+}
+
+.tt_xemthem {
+  display: block;
+  text-align: center;
+  margin: 0px 0 62px;
+}
+
+button.tt_button {
+  padding: 6px 81px;
+  font-size: 20px;
+  color: #B02B2E;
+  background: none;
+  border: 1px solid #B02B2E;
+  border-radius: 14px;
+}
+
+button.tt_button:hover {
+  background-color: #B02B2E;
+  color: #FFFFFF;
+  border: none;
+}
+
+.tt_sect img {
+  transition: all 0.3s linear;
+  backface-visibility: hidden;
+}
+
+.tt_item:hover .tt_sect  a{
+  text-decoration: none;
+}
+
+.tt_item:hover .tt_sect  a h6 {
+  color: #B02B2E;;
+}
+
+.tt_item:hover .tt_sect  a img {
+  transform: scale(1.005);
+}

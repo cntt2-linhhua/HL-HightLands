@@ -1,0 +1,392 @@
+@media screen and (max-width: 1200px) {
+  section.lh_container {
+    display: block;
+    margin-top: 0;
+  }
+  
+  .lh_content {
+    display: block;
+    background: none;
+    margin: 0 5%;
+  }
+  
+  .lh_tieude {
+    display: block;
+    padding-top: 34px;
+  }
+  
+  h1.lh_title {
+    display: block;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 41px;
+  }
+  
+  .lh_tieude h4 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .lh-form {
+    display: block;
+    margin-top: 30px;
+  }
+  
+  ul.lh-list {
+    display: block;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li.lh-item {
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  form.lh-f {
+    display: block;
+    width: 100%;
+  }
+  
+  .lh-phan label {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .lh-phan input {
+    display: block;
+    width: 100%;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 20px 0;
+    border-radius: 7px;
+    background: #eee;
+  }
+  
+  .lh-phan a {
+    position: absolute;
+    left: 2%;
+    color: #ccc;
+  }
+  
+  .name-input a {
+    transform: translateY(-31px);
+  }
+  
+  .mail-input i {
+    transform: translate(6px, -32px);
+    color: #ccc;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 29%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background: #eee;
+    padding: 10px 16px 17px 40px;
+  }
+  
+  input.inputMa {
+    width: 98%;
+  }
+  
+  .ma-input {
+    display: inline-block;
+    width: 85%;
+  }
+  
+  .mabaove {
+    display: inline-block;
+    transform: translateY(15px);
+  }
+  
+  .ma-input a {
+    transform: translateY(-30px);
+  }
+  
+  .lh-sub {
+    display: block;
+    margin: 37px 0;
+  }
+  
+  button.lh-button {
+    padding: 10px 47px;
+    border: 1px solid #B02B2E;
+    color: #B02B2E;
+    background: none;
+    border-radius: 12px;
+  }
+  
+  button.lh-button:hover {
+    color: #fff;
+    background: #B02B2E;
+    border: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  section.lh_container {
+    display: block;
+    margin-top: 0;
+  }
+  
+  .lh_content {
+    display: block;
+    background: none;
+    margin: 0 5%;
+  }
+  
+  .lh_tieude {
+    display: block;
+    padding-top: 34px;
+  }
+  
+  h1.lh_title {
+    display: block;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 41px;
+  }
+  
+  .lh_tieude h4 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .lh-form {
+    display: block;
+    margin-top: 30px;
+  }
+  
+  ul.lh-list {
+    display: block;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li.lh-item {
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  form.lh-f {
+    display: block;
+    width: 100%;
+  }
+  
+  .lh-phan label {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .lh-phan input {
+    display: block;
+    width: 100%;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 20px 0;
+    border-radius: 7px;
+    background: #eee;
+  }
+  
+  .lh-phan a {
+    position: absolute;
+    left: 2%;
+    color: #ccc;
+  }
+  
+  .name-input a {
+    transform: translateY(-31px);
+  }
+  
+  .mail-input i {
+    transform: translate(6px, -32px);
+    color: #ccc;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 29%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background: #eee;
+    padding: 10px 16px 17px 40px;
+  }
+  
+  input.inputMa {
+    width: 98%;
+  }
+  
+  .ma-input {
+    display: inline-block;
+    width: 85%;
+  }
+  
+  .mabaove {
+    display: inline-block;
+    transform: translateY(15px);
+  }
+  
+  .ma-input a {
+    transform: translateY(-30px);
+  }
+  
+  .lh-sub {
+    display: block;
+    margin: 37px 0;
+  }
+  
+  button.lh-button {
+    padding: 10px 47px;
+    border: 1px solid #B02B2E;
+    color: #B02B2E;
+    background: none;
+    border-radius: 12px;
+  }
+  
+  button.lh-button:hover {
+    color: #fff;
+    background: #B02B2E;
+    border: none;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  section.lh_container {
+    display: block;
+    margin-top: 0;
+  }
+  
+  .lh_content {
+    display: block;
+    background: none;
+    margin: 0 5%;
+  }
+  
+  .lh_tieude {
+    display: block;
+    padding-top: 34px;
+  }
+  
+  h1.lh_title {
+    display: block;
+    font-family: serif;
+    font-weight: 900;
+    font-size: 29px;
+  }
+  
+  .lh_tieude h4 {
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+  }
+  
+  .lh-form {
+    display: block;
+    margin-top: 30px;
+  }
+  
+  ul.lh-list {
+    display: block;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li.lh-item {
+    display: block;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  form.lh-f {
+    display: block;
+    width: 100%;
+  }
+  
+  .lh-phan label {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .lh-phan input {
+    display: block;
+    width: 100%;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 20px 0;
+    border-radius: 7px;
+    background: #eee;
+  }
+  
+  .lh-phan a {
+    position: absolute;
+    left: 2%;
+    color: #ccc;
+  }
+  
+  .name-input a {
+    transform: translateY(-31px);
+  }
+  
+  .mail-input i {
+    transform: translate(6px, -32px);
+    color: #ccc;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 29%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background: #eee;
+    padding: 10px 16px 17px 40px;
+  }
+  
+  input.inputMa {
+    width: 98%;
+  }
+  
+  .ma-input {
+    display: inline-block;
+    width: 85%;
+  }
+  
+  .mabaove {
+    display: inline-block;
+    transform: translateY(15px);
+  }
+  
+  .ma-input a {
+    transform: translateY(-30px);
+  }
+  
+  .lh-sub {
+    display: block;
+    margin: 37px 0;
+  }
+  
+  button.lh-button {
+    padding: 10px 47px;
+    border: 1px solid #B02B2E;
+    color: #B02B2E;
+    background: none;
+    border-radius: 12px;
+  }
+  
+  button.lh-button:hover {
+    color: #fff;
+    background: #B02B2E;
+    border: none;
+  }
+  
+}

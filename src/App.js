@@ -1,15 +1,16 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Header from "./component/Header";
+import Header from "./component/Header/Headers";
+import Footer from "./component/Footer"
 import Routers from "./component/Router";
-import Footer from "./component/Footer";
+
+
 
 function App() {
   return (
     <Router>
-      <Header />
+     <Header />
       <Routers />
       <Footer />
     </Router>

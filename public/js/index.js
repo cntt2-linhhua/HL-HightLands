@@ -1,3 +1,4 @@
+window.onload = function(){
 var slideIndex;
 // KHai bào hàm hiển thị slide
 function showSlides() {
@@ -10,7 +11,8 @@ function showSlides() {
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-
+    console.log(slides[slideIndex]);
+    
     slides[slideIndex].style.display = "block";  
     dots[slideIndex].className += " active";
     //chuyển đến slide tiếp theo
@@ -28,4 +30,5 @@ showSlides(slideIndex = 0);
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
+}
 }

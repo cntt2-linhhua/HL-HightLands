@@ -1,0 +1,499 @@
+@media screen and (max-width: 1200px) {
+  .C-container {
+    display: flex;
+    margin-top: 20%;
+  }
+  
+  .C-contentLeft {
+    display: inline-block;
+    width: 60%;
+    transform: translateX(3px);
+    margin: 25px 17px;
+    border: 1px solid #AD2C2D;
+  }
+  
+  .confirm-infomation {
+    display: block;
+    background: #fff;
+    width: 100%;
+    padding-bottom: 1px;
+  }
+  
+  .C-title {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .C-title h3 {
+    font-size: 23px;
+    font-weight: 100;
+    font-family: sans-serif;
+  }
+  
+  .C-confirm {
+    text-align: center;
+    width: 85%;
+    transform: translateX(70px);
+  }
+  
+  p.C-icon {
+    position: absolute;
+    color: #ccc;
+    transform: translateX(8px);
+  }
+  
+  .confirm div {
+    margin: 21px 0px;
+  }
+  
+  .confirm input {
+    width: 100%;
+    padding: 16px 26px;
+  }
+  
+  .C-cart {
+    display: inline-block;
+    transform: translateX(-6px);
+    width: 37%;
+    padding: 26px 10px;
+  }
+  
+  
+  
+  .C-dathang {
+      transform: translateY(0px);
+      width: 100%;
+  }
+  
+  .confirm {
+      display: block;
+      width: 100%;
+      margin: 25px 0;
+  }
+  
+  .C-titleDat {
+      text-align: center;
+      width: 100%;
+      display: block;
+      padding: 10px 0;
+  }
+  
+  .C-titleDat button {
+      display: block;
+      background: #AD2C2D;
+      width: 94%;
+      color: #fff;
+      transform: translateX(12px);
+      border: none;
+      font-size: 21px;
+      padding: 12px;
+      cursor: pointer;
+  }
+  
+  .pay {
+      display: block;
+      padding: 2px;
+      background: #fff;
+  }
+  
+  .title-httt {
+      display: block;
+      text-align: left;
+      padding-left: 64px;
+  }
+  
+  .title-httt h4 {
+      font-size: 25px;
+      font-weight: 100;
+      margin: 37px 0;
+  }
+  
+  .ds-httt {
+      display: block;
+      padding: 0 8% 17px 8%;
+  }
+  
+  ul.httt-list {
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  li.httt-item {
+      display: inline-block;
+      width: 49%;
+  }
+  
+  .item-httt input {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      vertical-align: middle;
+      -webkit-appearance: none;
+      border: 1px solid #AD2C2D;
+      border-radius: 50%;
+  }
+  
+  .item-httt a img {
+      display: inline-block;
+      vertical-align: middle;
+      width: 15%;
+      margin: 0 6px;
+  }
+  
+  .item-httt a span {
+      display: inline-block;
+      font-size: 18px;
+      font-family: cursive;
+  }
+  
+  .item-httt a:hover {
+      color: #AD2C2D;
+  }
+  
+  .item-httt input:checked {
+    background: #AD2C2D;
+  }
+  
+  .C-dathang {
+      border: 1px solid #AD2C2D;
+      background: #fff;
+  }}
+@media screen and (max-width: 992px) {
+  .C-container {
+    display: block;
+    margin-top: 0;
+  }
+  
+  .C-contentLeft {
+    display: inline-block;
+    width: 88%;
+    transform: translateX(38px);
+    margin: 25px 17px -7px;
+    border: 1px solid #AD2C2D;
+  }
+  
+  .confirm-infomation {
+    display: block;
+    background: #fff;
+    width: 100%;
+    padding-bottom: 1px;
+  }
+  
+  .C-title {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .C-title h3 {
+    font-size: 23px;
+    font-weight: 100;
+    font-family: sans-serif;
+  }
+  
+  .C-confirm {
+    text-align: center;
+    width: 85%;
+    transform: translateX(70px);
+  }
+  
+  p.C-icon {
+    position: absolute;
+    color: #ccc;
+    transform: translateX(8px);
+  }
+  
+  .confirm div {
+    margin: 21px 0px;
+  }
+  
+  .confirm input {
+    width: 100%;
+    padding: 16px 26px;
+  }
+  
+  .C-cart {
+    display: inline-block;
+    transform: translateX(47px);
+    width: 90%;
+    padding: 26px 10px;
+  }
+  
+  
+  
+  .C-dathang {
+      transform: translateY(0px);
+      width: 100%;
+  }
+  
+  .confirm {
+      display: block;
+      width: 100%;
+      margin: 25px 0;
+  }
+  
+  .C-titleDat {
+      text-align: center;
+      width: 100%;
+      display: block;
+      padding: 10px 0;
+  }
+  
+  .C-titleDat button {
+      display: block;
+      background: #AD2C2D;
+      width: 94%;
+      color: #fff;
+      transform: translateX(12px);
+      border: none;
+      font-size: 21px;
+      padding: 12px;
+      cursor: pointer;
+  }
+  
+  .pay {
+      display: block;
+      padding: 2px;
+      background: #fff;
+  }
+  
+  .title-httt {
+      display: block;
+      text-align: left;
+      padding-left: 64px;
+  }
+  
+  .title-httt h4 {
+      font-size: 25px;
+      font-weight: 100;
+      margin: 37px 0;
+  }
+  
+  .ds-httt {
+      display: block;
+      padding: 0 8% 17px 8%;
+  }
+  
+  ul.httt-list {
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  li.httt-item {
+      display: inline-block;
+      width: 49%;
+  }
+  
+  .item-httt input {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      vertical-align: middle;
+      -webkit-appearance: none;
+      border: 1px solid #AD2C2D;
+      border-radius: 50%;
+  }
+  
+  .item-httt a img {
+      display: inline-block;
+      vertical-align: middle;
+      width: 15%;
+      margin: 0 6px;
+  }
+  
+  .item-httt a span {
+      display: inline-block;
+      font-size: 18px;
+      font-family: cursive;
+  }
+  
+  .item-httt a:hover {
+      color: #AD2C2D;
+  }
+  
+  .item-httt input:checked {
+    background: #AD2C2D;
+  }
+  
+  .C-dathang {
+      border: 1px solid #AD2C2D;
+      background: #fff;
+  }}
+@media screen and (max-width: 600px) {
+  .C-container {
+    display: block;
+    margin-top: 8.9%;
+  }
+  
+  .C-contentLeft {
+    display: block;
+    width: 88%;
+    transform: translateX(4px);
+    margin: 25px 17px;
+    border: 1px solid #AD2C2D;
+  }
+  
+  .confirm-infomation {
+    display: block;
+    background: #fff;
+    width: 100%;
+    padding-bottom: 1px;
+  }
+  
+  .C-title {
+    text-align: center;
+    padding: 2px;
+  }
+  
+  .C-title h3 {
+    font-size: 23px;
+    font-weight: 100;
+    font-family: sans-serif;
+  }
+  
+  .C-confirm {
+    text-align: center;
+    width: 85%;
+    transform: translateX(25px);
+  }
+  
+  p.C-icon {
+    position: absolute;
+    color: #ccc;
+    transform: translateX(8px);
+  }
+  
+  .confirm div {
+    margin: 21px 0px;
+  }
+  
+  .confirm input {
+    width: 100%;
+    padding: 16px 26px;
+  }
+  
+  .C-cart {
+    display: block;
+    transform: translateX(8px);
+    width: 95%;
+    padding: 16px 10px;
+  }
+  
+  
+  
+  .C-dathang {
+      transform: translateY(0px);
+      width: 100%;
+  }
+  
+  .confirm {
+      display: block;
+      width: 100%;
+      margin: 31px 0;
+  }
+  
+  .C-titleDat {
+      text-align: center;
+      width: 100%;
+      display: block;
+      padding: 10px 0;
+  }
+  
+  .C-titleDat button {
+      display: block;
+      background: #AD2C2D;
+      width: 94%;
+      color: #fff;
+      transform: translateX(12px);
+      border: none;
+      font-size: 21px;
+      padding: 12px;
+      cursor: pointer;
+  }
+  
+  .pay {
+      display: block;
+      padding: 2px;
+      background: #fff;
+  }
+  
+  .title-httt {
+      display: block;
+      text-align: left;
+      padding-left: 24px;
+  }
+  
+  .title-httt h4 {
+      font-size: 25px;
+      font-weight: 100;
+      margin: 22px 0;
+  }
+  
+  .ds-httt {
+      display: block;
+      padding: 0 8% 17px 8%;
+  }
+  
+  ul.httt-list {
+      display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  li.httt-item {
+      display: block;
+      width: 100%;
+  }
+  
+  .item-httt input {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      -webkit-appearance: none;
+      border: 1px solid #AD2C2D;
+      border-radius: 50%;
+  }
+  
+  .item-httt a img {
+      display: inline-block;
+      vertical-align: middle;
+      width: 10%;
+      margin: 0 6px;
+  }
+  
+  .item-httt a span {
+      display: inline-block;
+      font-size: 16px;
+      font-family: cursive;
+  }
+  
+  .item-httt a:hover {
+      color: #AD2C2D;
+  }
+  
+  .item-httt input:checked {
+    background: #AD2C2D;
+  }
+  
+  .C-dathang {
+      border: 1px solid #AD2C2D;
+      background: #fff;
+  }
+
+  .sanpham-item span {
+    font-size: 11px;
+}
+
+.tong-tien {
+    font-size: 12px;
+}
+
+}

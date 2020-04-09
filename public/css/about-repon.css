@@ -1,0 +1,413 @@
+@media screen and (max-width: 1200px) {.ms_container {
+  display: block;
+  margin-top: 18.5%;
+}
+
+.ms_block1.ms-block {
+  display: block;
+  width: 100%;
+}
+
+.ms_block {
+  display: block;
+  clear: both;
+  background: #BD945D;
+}
+
+.ms_right {
+  display: block;
+  width: 100%;
+  float: right;
+  margin-bottom: 22px;
+}
+
+.ms_left.ms_content {
+  display: block;
+  width: 100%;
+  float: none;
+  background: #fff;
+  padding: 0 0 50px 49px;
+}
+
+.ms_img.ms_left {
+  display: block;
+  width: 100%;
+}
+
+.ms_img.ms_right-3 {
+  float: none;
+  display: block;
+  width: 100%;
+}
+
+.ms_left-3.ms_content-3 {
+  display: block;
+  width: 100%;
+  color: #fff;
+  padding: 45px 35px;
+}
+
+.ms_tl {
+  display: block;
+  font-weight: bold;
+}
+
+.ms_content {
+  display: block;
+}
+
+.ms_tl {
+  display: block;
+  font-weight: bold;
+}
+
+h1.ms_tt1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: initial;
+}
+
+.ms_button.left-dt.buttonItem.btt1 {
+  transform: translateY(25px);
+}
+
+button.ms-item_1 {
+  color: #AD2C2D !important;
+  background: none;
+  border-color: #AD2C2D;
+}
+
+button.ms-item_1:hover {
+  color: #fff !important;
+  background: #AD2C2D;
+}
+
+.ms_right.ms_content.content-1.container-3 {
+    text-align: left;
+    padding: 25px 19px 87px 22px;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    background: #BD945D;
+}
+
+.ms_button.left-dt.buttonItem.tem2 {
+    transform: translateY(54px);
+}
+
+button.ms-item_2 {
+    color: #fff !important;
+}
+
+button.ms-item_2:hover {
+    color: #AD2C2D !important;
+    background: #fff;
+    border: none;
+}
+
+.ms_block3.ms_block {
+    background: #8E5A2D;
+    display: inline-block;
+}
+
+.ms_button.left-dt.buttonItem {
+    transform: translateY(20px);
+}
+
+button.ms-item_3 {
+    color: #fff !important;
+}
+
+button.ms-item_3:hover {
+    color: #AD2C2D !important;
+    background: #fff;
+    border: none;
+}
+
+
+.ms_1::before {
+  content: none;
+}
+
+.ms_2::before {
+  content: none;
+}
+.ms_3::before {
+  content: none;
+}
+}
+@media screen and (max-width: 992px) {
+  .ms_container {
+  display: block;
+  margin-top: 0;
+}
+
+.ms_block1.ms-block {
+  display: block;
+  width: 100%;
+}
+
+.ms_block {
+  display: block;
+  clear: both;
+  background: #BD945D;
+}
+
+.ms_right {
+  display: block;
+  width: 100%;
+  float: none;
+  margin: 0;
+}
+
+.ms_left.ms_content {
+  display: block;
+  width: 100%;
+  background: #fff;
+  float: left;
+  padding: 37px 0 52px 49px;
+}
+
+.ms_img.ms_left {
+  display: block;
+  width: 100%;
+}
+
+.ms_img.ms_right-3 {
+  float: none;
+  display: block;
+  width: 100%;
+}
+
+.ms_left-3.ms_content-3 {
+  display: block;
+  width: 100%;
+  color: #fff;
+  padding: 40px 40px;
+}
+
+.ms_tl {
+  display: block;
+  font-weight: bold;
+}
+
+.ms_content {
+  display: block;
+}
+
+.ms_tl {
+  display: block;
+  font-weight: bold;
+}
+
+h1.ms_tt1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: initial;
+}
+
+.ms_button.left-dt.buttonItem.btt1 {
+  transform: translateY(25px);
+}
+
+button.ms-item_1 {
+  color: #AD2C2D !important;
+  background: none;
+  border-color: #AD2C2D;
+}
+
+button.ms-item_1:hover {
+  color: #fff !important;
+  background: #AD2C2D;
+}
+
+.ms_right.ms_content.content-1.container-3 {
+    width: 100%;
+    text-align: left;
+    padding: 26px 45px 77px 39px;
+    color: #fff;
+}
+
+.ms_button.left-dt.buttonItem.tem2 {
+    transform: translateY(54px);
+}
+
+button.ms-item_2 {
+    color: #fff !important;
+}
+
+button.ms-item_2:hover {
+    color: #AD2C2D !important;
+    background: #fff;
+    border: none;
+}
+
+.ms_block3.ms_block {
+    background: #8E5A2D;
+    display: inline-block;
+}
+
+.ms_button.left-dt.buttonItem {
+    transform: translateY(20px);
+}
+
+button.ms-item_3 {
+    color: #fff !important;
+}
+
+button.ms-item_3:hover {
+    color: #AD2C2D !important;
+    background: #fff;
+    border: none;
+}
+
+
+.ms_1::before {
+  content: none;
+}
+.ms_2::before {
+  content: none;
+}
+.ms_3::before {
+  content: none;
+}
+}
+@media screen and (max-width: 600px) {
+  .ms_container {
+  display: block;
+  margin-top: 0;
+}
+
+.ms_block1.ms-block {
+  display: block;
+  width: 100%;
+}
+
+.ms_block {
+  display: block;
+  clear: both;
+  background: #BD945D;
+}
+
+.ms_right {
+  display: block;
+  width: 100%;
+  float: none;
+  margin: 0;
+}
+
+.ms_left.ms_content {
+  display: block;
+  width: 100%;
+  float: none;
+  padding: 25px 0 50px 11px;
+  background: #fff;
+}
+
+.ms_img.ms_left {
+  display: block;
+  width: 100%;
+}
+
+.ms_img.ms_right-3 {
+  float: none;
+  display: block;
+  width: 100%;
+}
+
+.ms_left-3.ms_content-3 {
+  display: block;
+  width: 100%;
+  color: #fff;
+  padding: 29px 10px;
+}
+
+.ms_tl {
+  display: block;
+  font-weight: bold;
+}
+
+.ms_content {
+  display: block;
+}
+
+.ms_tl {
+  display: block;
+  font-weight: bold;
+}
+
+h1.ms_tt1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: initial;
+}
+
+.ms_button.left-dt.buttonItem.btt1 {
+  transform: translateY(25px);
+}
+
+button.ms-item_1 {
+  color: #AD2C2D !important;
+  background: none;
+  border-color: #AD2C2D;
+}
+
+button.ms-item_1:hover {
+  color: #fff !important;
+  background: #AD2C2D;
+}
+
+.ms_right.ms_content.content-1.container-3 {
+    text-align: left;
+    width: 100%;
+    padding: 25px 10px 68px 15px;
+    color: #fff;
+}
+
+.ms_button.left-dt.buttonItem.tem2 {
+    transform: translateY(54px);
+}
+
+button.ms-item_2 {
+    color: #fff !important;
+}
+
+button.ms-item_2:hover {
+    color: #AD2C2D !important;
+    background: #fff;
+    border: none;
+}
+
+.ms_block3.ms_block {
+    background: #8E5A2D;
+    display: inline-block;
+}
+
+.ms_button.left-dt.buttonItem {
+    transform: translateY(20px);
+}
+
+button.ms-item_3 {
+    color: #fff !important;
+}
+
+button.ms-item_3:hover {
+    color: #AD2C2D !important;
+    background: #fff;
+    border: none;
+}
+
+
+.ms_1::before {
+  content: none;
+}
+.ms_2::before {
+  content: none;
+}
+.ms_3::before {
+  content: none;
+}
+}

@@ -1,0 +1,193 @@
+.td_content {
+  display: block;
+  width: 100%;
+  margin-top: 157px;
+}
+
+.td_container {
+  display: inline-block;
+}
+
+.td-block {
+  display: block;
+}
+
+.td-block.td_block1 {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-PSD-bg.jpg);
+  background-repeat: round;
+  background-size: cover;
+  padding-bottom: 474px;
+}
+
+.td_right {
+  float: right;
+}
+
+
+
+.td_left.td_content {
+  display: inline-block;
+}
+
+.td_left.td_content {
+  left: 2%;
+  padding-left: 84px;
+  float: left !important;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+  width: 50%;
+  padding-top: 100px;
+}
+
+.td_tl {
+  display: block;
+  padding: 0px 0px 10px 0;
+}
+
+.td_content h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.td_txt_detail {
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.td_img.td_right {
+  float: right;
+  margin-top: 106px;
+  display: inline-block;
+  width: 50%;
+  right: -8%;
+  text-align: center;
+}
+
+.btt {
+  margin-left: 75px;
+  color: #fff;
+}
+
+.td_block {
+  display: flex;
+  background-image: url(https://highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-FREEZE.jpg);
+  width: 100%;
+  background-size: cover;
+}
+
+.content-1 {
+  margin: 52px 34px 0 0px;
+  text-align: right;
+  width: 50%;
+  display: inline-block;
+  top: 0;
+}
+
+h1.td_tt1 {font-weight: 800;font-size: 50px;padding: 0;}
+
+.td_button.left-dt.buttonItem.tem2 {transform: translateX(-52px);}
+
+.td_block3 {
+  display: block;
+  background-image: url(https://highlandscoffee.com.vn/vnt_upload/product/04_2018/menu-TEA-bg.jpg);
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+}
+
+.td_block4 {
+  display: block;
+  background-image: url(https://highlandscoffee.com.vn/vnt_upload/product/03_2018/menu-BANHMI-bg_2.jpg);
+  padding-bottom: 0;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-size: cover;
+}
+
+.td_img.menuimg2.td_left {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.td_txt_detail.detail2 {
+    display: block;
+    text-align: right;
+    color: #016501;
+}
+
+.td_img.td_right.menuimg1 img {
+}
+
+.td_img.menuimg2.td_left img {
+    transform: translateY(6px);
+}
+
+.td_img.td_right.menuimg3 img {
+    transform: translateY(6px);
+}
+
+.td_img.td_left {
+    display: inline-block;
+    width: 50%;
+}
+
+.td_right.td_content.detail4 {
+    display: inline-block;
+    margin-top: 14px;
+    width: 50%;
+    text-align: right;
+    padding-left: 65px;
+    padding-right: 88px;
+}
+
+.btt {
+  color: #fff;
+  margin: 0;
+  left: 0;
+}
+
+.td_button.left-dt.buttonItem.tem2 {
+}
+
+button.item_2 {
+  padding: 10px 47px;
+  margin-right: -50px;
+  color: #1F0B0A;
+  text-transform: uppercase;
+}
+
+button.item_1:hover {
+  background: #B02B2E;
+  border-color: #B02B2E;
+}
+
+button.item_2:hover {
+  background: #B02B2E;
+  border-color: #B02B2E;
+  transition-delay: 0.3s;
+}
+
+
+.td_button.left-dt.buttonItem.btt {}
+
+button.item_1 {
+    color: #fff !important;
+}
+
+.td_button.left-dt.buttonItem.tem2 {}
+
+button.item_2 {
+    color: black !important;
+}
+
+button.item_2:hover {
+    color: #fff !important;
+}

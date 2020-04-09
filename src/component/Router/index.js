@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import * as ROUTES from  '../Router/routers'
 import Home from '../Home';
-import MenuCategory from '../MenuCategory';
+import About from '../About';
 
 class Routers extends Component {
   render() {
@@ -15,7 +15,8 @@ class Routers extends Component {
       <div>
         <Switch>
           <Route exact path={ROUTES.HOME} component={Home}/>
-          <Route exact path={ROUTES.MENUCATEGORY} component={MenuCategory}/>
+          <Route exact path={ROUTES.ABOUT} component={About}/>
+          {/* <Route exact path={ROUTES.MENUCATEGORY} component={MenuCategory}/> */}
           {/* <Route exact path={ROUTES.NEWS} component={}/> */}
         </Switch>
       </div>

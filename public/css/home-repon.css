@@ -1,0 +1,846 @@
+@media screen and (max-width: 992px) {
+  .home-container {
+    display: block;
+    margin-top: 0;
+  }
+  
+  .home-contentTop {
+    display: block;
+    width: 100%;
+  }
+  
+  .home-listTopContent {
+    display: block;
+    position: relative;
+  }
+  
+  .home-listTopContent ul {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .home-listTopContent ul li {
+    display: block;
+    position: relative;
+  }
+  
+  .slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* áº¨n cÃ¡c slider */
+  .mySlides {
+    display: none;
+  }
+  /* Äá»‹nh dáº¡ng ná»™i dung Caption */
+  .h-button-slider {
+  right: 0px; position: absolute; left: 59%; top: 72%; color: #F0BB7B;
+  }
+  
+  .listdot {
+  text-align:center;
+  position: absolute;
+  z-index: 10;
+  transform: translateY(-40px);
+  left: 45%;
+  }
+  
+  /* Ä‘á»‹nh dáº¡ng cÃ¡c cháº¥m chuyá»ƒn Ä‘á»•i cÃ¡c slide */
+  .dot {
+  cursor:pointer;
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  padding: 4px;
+  transform: translateY(-5px);
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  }
+  /* khi Ä‘Æ°á»£c hover, active Ä‘á»•i mÃ u ná»n */
+  .active, .dot:hover {
+  background-color: #ccc;
+  }
+  
+  /* ThÃªm hiá»‡u á»©ng khi chuyá»ƒn Ä‘á»•i cÃ¡c slide */
+  .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 5s;
+  }
+  
+  @-webkit-keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+  }
+  
+  @keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+  }
+  
+  
+  button.item3 {
+    border: 1px solid #B02B2E;
+    color: #B02B2E;
+  }
+  
+  .contentItem a {
+    display: block;
+    height: 100%;
+    margin-bottom: -7px;
+  }
+  
+  .home-dot {
+    display:inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 3px;
+    font-size: 10px;
+    height: 13px;
+    width: 13px;
+  }
+  
+  button.item2.h-button1 {
+    float: right;
+  }
+  
+  button.item1.b2-item1 {
+    padding: 15px 73px;
+    transform: translateX(-62px);
+  }
+  
+  
+  .buttonItem {
+    display: none;
+  }
+  
+  .h-button2 {
+    position: absolute;
+    transform: translateY(-149px);
+    right: 15%;
+  }
+  
+  .b2-item1 {
+    float: right;
+    right: 40px;
+  }
+  
+  .h-button3 {
+    right: 0px;
+    position: absolute;
+    /* transform: translateY(-172px); */
+    left: 22%;
+    bottom: 20%;
+  }
+  
+  .h-button4 {
+    bottom: 10%;
+    float: right;
+    position: absolute;
+    left: 59%;
+    padding: 0;
+  }
+  
+  .buttonItem button {
+    border-color: rgb(243, 189, 122);
+    background: none;
+    color: #FBC37F;
+    padding: 8px 50px;
+    /* float: right; */
+    /* right: 13px; */
+    font-size: initial;
+    border-radius: 5px;
+    border: 1px solid;
+    transform: translateX(10px);
+  }
+  
+  .item1:hover {
+    background-color: #FBC37F;
+    color: #343434;
+  }
+  
+  .item2:hover {
+    background-color: #496333;
+    color: #FAFBF9;
+  }
+  
+  .item3:hover {
+    background-color: #B02B2E;
+    padding: 0;
+    color: #FEFEFE;
+    width: 100%;
+  }
+  
+  button.item3 {
+    border: 1px solid #B02B2E;
+    color: #B02B2E;
+  }
+  
+  button.item2 {
+    float: left;
+    border: 1px solid #496333;
+    color: #496333;
+  }
+  
+  .buttonItem.h-button3 button {
+      padding: 14px 73px;
+  }
+  
+  .buttonItem.h-button4 button {padding: 13px 67px;}
+  
+  .h-content-bottom {
+      display: block;
+      margin: 0;
+      padding: 0;
+      transform: translateY(0px);
+      width: 100%;
+  }
+  
+  .contentLeft {
+     display: block;
+     width: 100%;
+     background-size: cover;
+     padding-bottom: 32%;
+  }
+  
+  .boxHome {
+      display: block;
+      position: relative;
+      padding: 60px 44px 45px;
+      left: 5%;
+  }
+  
+  .title.v2 {
+      display: block;
+      float: left;
+      color: #fff;
+      font-weight: bold !important;
+      text-transform: uppercase;
+      font-family: cursive;
+  }
+  
+  
+  
+  .content {
+      display: block;
+      float: right;
+      width: 70%;
+      font-family: 'Tangerine', serif;
+      color: #FFFFFF;
+      margin-bottom: 0;
+  }
+  
+  .content h3 {
+      display: block;
+      float: right;
+      /* right: 25px; */
+      width: 100%;
+      font-weight: bold !important;
+      text-transform: uppercase;
+      font-family: cursive;
+  }
+  
+  .content p {
+      display: block;
+      float: right;
+      width: 100%;
+      /* color: #FFFFFF !important; */
+  }
+  
+  .content p a {
+      color: #FFFFFF;
+      text-transform: uppercase;
+      font-weight: bold;
+  }
+  
+  .content p a:hover {
+      /* list-style-type: none; */
+      color: #F1BC7A;
+      cursor: pointer;
+      text-decoration: none;
+  }
+  
+  .contentRignht {
+      display: block;
+      width: 100%;
+      background-size: cover;
+  }
+  
+  .titleR {
+      display: block;
+      width: 100%;
+  }
+  
+  .titleRl {
+      display: inline-block;
+      color: #343434;
+  }
+  
+  .linkRl {
+      display: inline-block;
+      float: right;
+      margin-top: 12px;
+  }
+  
+  .linkRl span a {
+      text-decoration: underline;
+      color: #343434;
+  }
+  
+  .linkRl span {
+      text-decoration: underline;
+      color: #343434;
+  }
+  
+  .linkRl span a:hover {
+      color: #B6373E;
+  }
+  
+  .contentRl {
+      display: block;
+      width: 100%;
+      position: relative;
+      padding: 0px 36px;
+  }
+  
+  .contentItem {
+      /* display: block; */
+      width: 100%;
+  }
+  
+  
+  
+  .contentItemb {
+      display: block;
+      width: 100%;
+      position: relative;
+  }
+  
+  .imgContentb {
+      display: inline-block;
+      width: 120px;
+      height: 68px;
+      margin-left: 17px;
+      margin-right: 23px;
+      max-width: 30%;
+  }
+  
+  .imgContentb img {
+      width: 100%;
+      height: 100%;
+      float: left;
+      /* left: 10%; */
+      /* margin-left: 36px; */
+  }
+  
+  .detailContentb {
+      display: inline-block;
+      max-width: 65%;
+      /* padding-top: 13px; */
+      font-size: 14px;
+      color: #343434;
+  }
+  
+  .contentItemb h4 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+      padding-top: 10px;
+  }
+  
+  .timeContent span {
+  }
+  
+  form.contectB {
+      display: block;
+      width: 100%;
+      position: relative;
+      padding: 10px 53px;
+  }
+  
+  .contectB input {
+      display: inline-block;
+      width: 70%;
+      padding: 10px 5px;
+      /* position: absolute; */
+  }
+  
+  .contectB button {
+      display: inline-block;
+      position: absolute;
+      height: 66%;
+      border: none;
+      color: #fff;
+      background: #53382C;
+      padding: 0 27px;
+  }
+  
+  .contentContact {
+      display: block;
+      margin-bottom: 8px;
+  }
+  
+  .imgContentB img {
+      width: 100%;
+      height: 100%;
+  }
+  
+  .detailContent {
+      position: absolute;
+      width: 60%;
+      float: right;
+      display: inline-block;
+      color: #343434;
+      font-size: 15px;
+      text-transform: uppercase;
+      margin: 0px 18px;
+  }
+  
+  .detailContent h4 {
+      font-size: 16px;
+      font-weight: bold;
+  }
+  
+  .contentItemB {
+      display: block;
+      margin-bottom: 20px;
+  }
+  
+  .imgContentB {
+      display: inline-block;
+      width: 120px;
+      height: 67.38px;
+  }
+  
+  .timeContent {
+      transform: translateY(-19px);
+      text-align: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-container {
+  display: block;
+  margin-top: 5%;
+}
+
+.home-contentTop {
+  display: block;
+  width: 100%;
+}
+
+.home-listTopContent {
+  display: block;
+  position: relative;
+}
+
+.home-listTopContent ul {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.home-listTopContent ul li {
+  display: block;
+  position: relative;
+}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* áº¨n cÃ¡c slider */
+.mySlides {
+  display: none;
+}
+/* Äá»‹nh dáº¡ng ná»™i dung Caption */
+.h-button-slider {
+right: 0px; position: absolute; left: 59%; top: 72%; color: #F0BB7B;
+}
+
+.listdot {
+text-align:center;
+position: absolute;
+z-index: 10;
+transform: translateY(-40px);
+left: 47%;
+}
+
+/* Ä‘á»‹nh dáº¡ng cÃ¡c cháº¥m chuyá»ƒn Ä‘á»•i cÃ¡c slide */
+.dot {cursor:pointer;height: 5px;width: 5px;margin: 0 -3px;padding: 2px;transform: translateY(-6px);background-color: #fff;border-radius: 50%;display: inline-block;transition: background-color 0.6s ease;}
+/* khi Ä‘Æ°á»£c hover, active Ä‘á»•i mÃ u ná»n */
+.active, .dot:hover {
+background-color: #ccc;
+}
+
+/* ThÃªm hiá»‡u á»©ng khi chuyá»ƒn Ä‘á»•i cÃ¡c slide */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1s;
+animation-name: fade;
+animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .9} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .9} 
+to {opacity: 1}
+}
+
+
+button.item3 {
+  border: 1px solid #B02B2E;
+  color: #B02B2E;
+}
+
+.contentItem a {
+  display: block;
+  height: 100%;
+  margin-bottom: -7px;
+}
+
+.home-dot {
+  display:inline-block ;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+button.item2.h-button1 {
+  float: right;
+}
+
+button.item1.b2-item1 {
+  padding: 15px 73px;
+  transform: translateX(-62px);
+}
+
+
+.buttonItem {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 21%;
+  bottom: -24%;
+  position: absolute;
+  /* z-index: 9999; */
+  font-size: 13px;
+  /* transform: translateX(56%); */
+}
+
+.h-button2 {
+  position: absolute;
+  transform: translateY(-149px);
+  right: 15%;
+}
+
+.b2-item1 {
+  float: right;
+  right: 40px;
+}
+
+.h-button3 {
+  right: 0px;
+  position: absolute;
+  /* transform: translateY(-172px); */
+  left: 22%;
+  bottom: 20%;
+}
+
+.h-button4 {
+  bottom: 10%;
+  float: right;
+  position: absolute;
+  left: 59%;
+  padding: 0;
+}
+
+.buttonItem button {
+  border-color: rgb(243, 189, 122);
+  background: none;
+  color: #FBC37F;
+  padding: 8px 50px;
+  /* float: right; */
+  /* right: 13px; */
+  font-size: initial;
+  border-radius: 5px;
+  border: 1px solid;
+  transform: translateX(10px);
+}
+
+.item1:hover {
+  background-color: #FBC37F;
+  color: #343434;
+}
+
+.item2:hover {
+  background-color: #496333;
+  color: #FAFBF9;
+}
+
+.item3:hover {
+  background-color: #B02B2E;
+  padding: 0;
+  color: #FEFEFE;
+  width: 100%;
+}
+
+button.item3 {
+  border: 1px solid #B02B2E;
+  color: #B02B2E;
+}
+
+button.item2 {
+  float: left;
+  border: 1px solid #496333;
+  color: #496333;
+}
+
+.buttonItem.h-button3 button {
+    padding: 14px 73px;
+}
+
+.buttonItem.h-button4 button {padding: 13px 67px;}
+
+.h-content-bottom {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.contentLeft {
+   display: block;
+   padding: 0;
+   width: 100%;
+   padding-bottom: 76%;
+}
+
+.boxHome {
+    display: block;
+    position: relative;
+    padding: 60px 44px 45px;
+    left: 5%;
+}
+
+.title.v2 {
+    display: block;
+    float: left;
+    color: #fff;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+
+
+.content {
+    display: block;
+    float: right;
+    width: 50%;
+    margin: 42px 0;
+    font-family: 'Tangerine', serif;
+    color: #FFFFFF;
+}
+
+.content h3 {
+    display: block;
+    float: right;
+    /* right: 25px; */
+    width: 100%;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.content p {
+    display: block;
+    float: right;
+    width: 100%;
+    /* color: #FFFFFF !important; */
+}
+
+.content p a {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content p a:hover {
+    /* list-style-type: none; */
+    color: #F1BC7A;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contentRignht {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+}
+
+.titleR {
+    display: block;
+    width: 100%;
+}
+
+.titleRl {
+    display: inline-block;
+    color: #343434;
+}
+
+.linkRl {
+    display: inline-block;
+    float: right;
+    margin-top: 12px;
+}
+
+.linkRl span a {
+    text-decoration: underline;
+    color: #343434;
+}
+
+.linkRl span {
+    text-decoration: underline;
+    color: #343434;
+}
+
+.linkRl span a:hover {
+    color: #B6373E;
+}
+
+.contentRl {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding: 0px 36px;
+}
+
+.contentItem {
+    /* display: block; */
+    width: 100%;
+}
+
+
+
+.contentItemb {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.imgContentb {
+    display: inline-block;
+    width: 120px;
+    height: 68px;
+    margin-left: 17px;
+    margin-right: 23px;
+    max-width: 30%;
+}
+
+.imgContentb img {
+    width: 100%;
+    height: 100%;
+    float: left;
+    /* left: 10%; */
+    /* margin-left: 36px; */
+}
+
+.detailContentb {
+    display: inline-block;
+    max-width: 65%;
+    /* padding-top: 13px; */
+    font-size: 14px;
+    color: #343434;
+}
+
+.contentItemb h4 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.timeContent span {
+}
+
+form.contectB {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding: 10px 53px;
+}
+
+.contectB input {
+    display: inline-block;
+    width: 70%;
+    padding: 10px 5px;
+    /* position: absolute; */
+}
+
+.contectB button {
+    display: inline-block;
+    position: absolute;
+    height: 66%;
+    border: none;
+    color: #fff;
+    background: #53382C;
+    padding: 0 27px;
+}
+
+.contentContact {
+    display: block;
+    margin: 0;
+}
+
+.imgContentB img {
+    width: 100%;
+    height: 100%;
+}
+
+.detailContent {
+    position: absolute;
+    width: 51%;
+    float: right;
+    display: inline-block;
+    color: #343434;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0px 18px;
+}
+
+.detailContent h4 {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.contentItemB {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.imgContentB {
+    display: inline-block;
+    width: 120px;
+    height: 67.38px;
+}
+
+.timeContent {
+    transform: translateY(-19px);
+    text-align: left;
+}
+}

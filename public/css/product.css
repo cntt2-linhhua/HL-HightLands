@@ -1,0 +1,301 @@
+.td_content {
+  display: block;
+  width: 100%;
+  margin-top: 157px;
+}
+
+.ct_sp {
+  width: 65%;
+  display: inline-block;
+  padding-left: 88px;
+  transform: translateY(24%);
+  padding-right: 28px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 20px;
+}
+
+.imgProduct {
+  width: 30%;
+  display: inline-block;
+}
+
+.description {
+  display: inline-block;
+  width: 69%;
+  float: right;
+  padding-left: 24px;
+}
+
+.desContent {
+  display: block;
+  text-transform: initial;
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+.dessize {
+  display: block;
+}
+
+.size span span {
+  display: inline-block;
+  float: right;
+}
+
+ul.sizeList {
+  display: inline-block;
+}
+
+ul.sizeList {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px;
+}
+
+li.sizeItem {
+  display: inline-block;
+  padding: 7px 13px;
+  margin: 5px;
+  border: 1px solid #eeeeee;
+}
+
+.relace {
+  display: block;
+  margin-top: 10%;
+}
+
+ul.relaceList {
+  display: block;
+  list-style-type: none;
+}
+
+li.relaceItem {
+  padding-bottom: 20px;
+  display: inline-block;
+  width: 28%;
+  text-align: center;
+}
+
+.relacePro {
+  display: block;
+}
+
+.imgrelace {
+  display: inline-block;
+  width: 40%;
+}
+
+.detailRelace {
+  display: inline-block;
+}
+
+.detailRelace h1 {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #53382C;
+}
+
+ul.relaceList {
+  padding: 0px;
+}
+
+.td_content h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.tdct {
+  display: flex;
+}
+
+.size button {
+  padding: 4px 12px;
+  border: 2px solid #AD2C2D;
+  font-size: 17px;
+  background: none;
+  color: #AD2C2D;
+}
+
+.size button:hover {
+  color: #fff;
+  background: #AD2C2D;
+  border: none;
+}
+
+.product {
+    padding-bottom: 74px;
+}
+
+.detailRelace h1 {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #53382C;
+}
+
+.imgrelace {
+    display: block;
+    width: 100%;
+}
+
+.ct-xemgiohang {
+  display: inline-block;
+  width: 34%;
+  transform: translateY(26%);
+}
+
+.ct-xemgiohang {
+  display: inline-block;
+  width: 28%;
+  transform: translateY(26%);
+}
+
+.ct-gh-title:hover {
+  background: #AD2C2D;
+}
+
+.ct-gh-title {
+  display: block;
+  text-align: center;
+  padding: 20px 10px;
+  background: #AD2C2D;
+  font-size: 20px;
+}
+
+.ct-gh-title a {
+  color: #ddd;
+  font-weight: bold;
+}
+
+.dathang {
+  margin-top: 0;
+  border: 3px solid #eee;
+  width: 100%;
+  margin: 0;
+}
+
+ul.list-spd {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li.spd {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.sanpham-item {
+  display: flex;
+  width: 100%;
+  margin: 10px;
+}
+
+button.sanpham-item-button {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  font-weight: 900;
+  color: #fff;
+  background: #B02B2E;
+}
+
+.ten-spd {
+  width: 70%;
+  margin-left: 10px;
+}
+
+.sanpham-item span {
+  text-align: right;
+  width: 18%;
+  transform: translateY(29px);
+  font-weight: 800;
+}
+
+.tong-spd {
+  margin: 10px;
+}
+
+.tong-ten {
+  display: inline-block;
+  width: 80%;
+}
+
+span.tong-l {
+  display: inline-block;
+  width: 80%;
+}
+
+.tong-tien {
+  display: inline-block;
+  width: 16%;
+  text-align: right;
+  font-weight: bold;
+}
+
+.mauudai {
+  display: flex;
+  margin: 11px 0;
+  transform: translateY(12px);
+}
+
+.mauudai input {
+  display: flex;
+  padding: 10px 10px;
+  position: relative;
+  width: 82%;
+  border: 1px solid #ccc;
+}
+
+.mauudai button {
+  padding: 0;
+  width: 30%;
+  BACKGROUND: #B02B2E;
+  color: #fff;
+  border: none;
+}
+
+.tongtien {
+  display: block;
+  padding: 15px 0;
+  margin: 10px;
+}
+
+span.tt-tien {
+  font-weight: 700;
+  font-family: none;
+  font-size: 22px;
+  width: 80%;
+  display: inline-block;
+}
+
+span.tien-tong {
+  text-align: right;
+  width: 20%;
+  color: #B02B2E;
+  font-weight: bolder;
+}
+
+
+
+.ten-spd h6 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.ten-spd p {
+    margin: 5px;
+}
+
+.sp-dat {
+    display: block;
+    width: 100%;
+}
+
+.ten-spd {
+    width: 65%;
+}
