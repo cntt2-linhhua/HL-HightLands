@@ -427,7 +427,7 @@
 @media screen and (max-width: 600px) {
   .home-container {
   display: block;
-  margin-top: 5%;
+  margin-top: 0;
 }
 
 .home-contentTop {
@@ -775,8 +775,7 @@ button.item2 {
     padding-top: 10px;
 }
 
-.timeContent span {
-}
+
 
 form.contectB {
     display: block;
@@ -840,7 +839,7 @@ form.contectB {
 }
 
 .timeContent {
-    transform: translateY(-19px);
+    transform: translateY(3px);
     text-align: left;
 }
 }

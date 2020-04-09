@@ -3,8 +3,10 @@ window.onload = function(){
   // xu ly mune header 
   var menu=document.getElementById('menu');
   var ctmenu = document.getElementById('ctmenu');
-  var rmCol3 = document.querySelectorAll('.rmcol3');
+  console.log( 'aaaaaaaaaaaaaa');
   menu.onclick = function () {
+   
+    
     ctmenu.style.display="flex";
     // rmCol3.forEach(item => {
     //   if(item.classList.contains('col-3')){

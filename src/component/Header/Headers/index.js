@@ -52,14 +52,12 @@ class Header extends Component {
                 </div>
                 <div className="menu_default">
                   <div className="icon_menu">
-                    <a
-                      href="./home.html"
+                    <button
                       className="icon"
                       id="menu"
-                      // onClick="myFunction()"
                     >
                       <i className="fa fa-bars" aria-hidden="true" />
-                    </a>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -75,12 +73,10 @@ class Header extends Component {
                     </a> */}
                   </li>
                   <li className="menu-mega header-drop">
-                    <a href="./home.html" target="_self">
-                      <span>THỰC ĐƠN</span>
-                    </a>
-                    <a className="menuxt" href="./home.html">
-                      <i className="fa fa-angle-right" aria-hidden="true" />
-                      <i className="fa fa-angle-down" aria-hidden="true" />
+                    <Link to="/menu"><span>THỰC ĐƠN</span></Link>
+                    <a className="menuxt" >
+                      <i className="fa fa-angle-right downR" aria-hidden="true" />
+                      <i className="fa fa-angle-down downB" aria-hidden="true" />
                     </a>
                     <div className=" an thucdon menuMega">
                       <div className="col-12 col-sm-12 mega1 caphe ">
@@ -89,14 +85,14 @@ class Header extends Component {
                             <ul className="listL">
                               <li className="mega-item xemthemtd">
                                 <div>
-                                  <a href="./home.html">CÀ PHÊ</a>
-                                  <a className="menuxt2" href="./home.html">
+                                  <Link to="/ca_phe">CÀ PHÊ</Link>
+                                  <a className="menuxt2">
                                     <i
                                       className="fa fa-angle-right"
                                       aria-hidden="true"
                                     />
                                     <i
-                                      className="fa fa-angle-down"
+                                      className="fa fa-angle-down downB"
                                       aria-hidden="true"
                                     />
                                   </a>
@@ -107,27 +103,27 @@ class Header extends Component {
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Cà Phê Phin</a>
+                                    <Link to="/san-pham">Cà Phê Phin</Link>
                                   </li>
                                   <li className="items">
                                     <i
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Cà Phê Espresso</a>
+                                    <Link to="/san-pham">Cà Phê Espresso</Link>
                                   </li>
                                 </ul>
                               </li>
                               <li className="mega-item xemthemtd">
                                 <div>
-                                  <a href="./home.html">FREEZE</a>
-                                  <a className="menuxt2" href="./home.html">
+                                  <Link to="/ca_phe">FREEZE</Link>
+                                  <a className="menuxt2" >
                                     <i
                                       className="fa fa-angle-right"
                                       aria-hidden="true"
                                     />
                                     <i
-                                      className="fa fa-angle-down"
+                                      className="fa fa-angle-down downB"
                                       aria-hidden="true"
                                     />
                                   </a>
@@ -138,33 +134,27 @@ class Header extends Component {
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">
-                                      {" "}
-                                      Freeze Cà Phê Phin
-                                    </a>
+                                    <Link to="/san-pham">Freeze Cà Phê Phin</Link>
                                   </li>
                                   <li className="items">
                                     <i
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">
-                                      {" "}
-                                      Freeze Không Cà Phê
-                                    </a>
+                                    <Link to="/san-pham">Freeze Không Cà Phê</Link>
                                   </li>
                                 </ul>
                               </li>
                               <li className="mega-item xemthemtd">
                                 <div>
-                                  <a href="./home.html">TRÀ</a>
-                                  <a className="menuxt2" href="./home.html">
+                                  <Link to="/ca_phe">TRÀ</Link>
+                                  <a className="menuxt2">
                                     <i
                                       className="fa fa-angle-right"
                                       aria-hidden="true"
                                     />
                                     <i
-                                      className="fa fa-angle-down"
+                                      className="fa fa-angle-down downB"
                                       aria-hidden="true"
                                     />
                                   </a>
@@ -175,41 +165,41 @@ class Header extends Component {
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Trà Sen Vàng</a>
+                                    <Link to="/san-pham">Trà Sen Vàng</Link>
                                   </li>
                                   <li className="items">
                                     <i
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Trà Thạch Đào</a>
+                                    <Link to="/san-pham">Trà Thạch Đào</Link>
                                   </li>
                                   <li className="items">
                                     <i
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Trà Thanh Đào</a>
+                                    <Link  to="/san-pham">Trà Thanh Đào</Link>
                                   </li>
                                   <li className="items">
                                     <i
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Trà Thạch Vải</a>
+                                    <Link to="/san-pham">Trà Thạch Vải</Link>
                                   </li>
                                 </ul>
                               </li>
                               <li className="mega-item xemthemtd">
                                 <div>
-                                  <a href="./home.html">BÁNH MÌ</a>
-                                  <a className="menuxt2" href="./home.html">
+                                  <Link to="/caphe">BÁNH MÌ</Link>
+                                  <a className="menuxt2">
                                     <i
                                       className="fa fa-angle-right"
                                       aria-hidden="true"
                                     />
                                     <i
-                                      className="fa fa-angle-down"
+                                      className="fa fa-angle-down downB"
                                       aria-hidden="true"
                                     />
                                   </a>
@@ -220,35 +210,35 @@ class Header extends Component {
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Thịt Nướng</a>
+                                    <Link to="/san-pham">Thịt Nướng</Link>
                                   </li>
                                   <li className="items">
                                     <i
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Xíu Mại</a>
+                                    <Link to="/san-pham">Xíu Mại</Link>
                                   </li>
                                   <li className="items">
                                     <i
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Chả Lụa Xá Xíu</a>
+                                    <Link to="/san-pham">Chả Lụa Xá Xíu</Link>
                                   </li>
                                   <li className="items">
                                     <i
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Gà Xé Nước Tương</a>
+                                    <Link to="/san-pham">Gà Xé Nước Tương</Link>
                                   </li>
                                 </ul>
                               </li>
                               <li className="mega-item xemthemtd">
                                 <div>
-                                  <a href="./home.html">KHÁC</a>
-                                  <a className="menuxt2" href="./home.html">
+                                  <Link to="/ca_phe">KHÁC</Link>
+                                  <a className="menuxt2">
                                     <i
                                       className="fa fa-angle-right"
                                       aria-hidden="true"
@@ -265,21 +255,21 @@ class Header extends Component {
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Bánh Ngọt</a>
+                                    <Link to="/san-pham">Bánh Ngọt</Link>
                                   </li>
                                   <li className="items">
                                     <i
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Merchandise</a>
+                                    <Link to="san-pham">Merchandise</Link>
                                   </li>
                                   <li className="items">
                                     <i
                                       className="fa fa-caret-right muiten"
                                       aria-hidden="true"
                                     />
-                                    <a href="./home.html">Cà Phê Đóng Gói</a>
+                                    <Link to="/san-pham">Cà Phê Đóng Gói</Link>
                                   </li>
                                   <li className="items">
                                     <i
@@ -315,10 +305,10 @@ class Header extends Component {
                   </li>
                   <li className="menu-mega header-drop">
                     <div>
-                      <a href="./home.html">TIN TỨC</a>
-                      <a className="menuxt" href="./home.html">
+                      <Link to="/tin-tuc">TIN TỨC</Link>
+                      <a className="menuxt">
                         <i className="fa fa-angle-right" aria-hidden="true" />
-                        <i className="fa fa-angle-down" aria-hidden="true" />
+                        <i className="fa fa-angle-down downB" aria-hidden="true" />
                       </a>
                     </div>
                     <div className="an tin menuMega">
@@ -327,22 +317,22 @@ class Header extends Component {
                           <div className="col-9 col-sm-9 mega-left">
                             <ul className="listL">
                               <li className="mega-item ">
-                                <a href="./home.html">TIN TỨC &amp; SỰ KIỆN</a>
+                                <Link to="/tin-tuc">TIN TỨC &amp; SỰ KIỆN</Link>
                               </li>
                               <li className="mega-item">
-                                <a href="./home.html">TIN KHUYẾN MÃI</a>
+                                <Link to="/tin-tuc">TIN KHUYẾN MÃI</Link>
                               </li>
                             </ul>
                           </div>
                           <div className="col-2 col-sm-2 banner">
                             <div className="bannerMenu">
                               <div className="txt">
-                                <a href="./home.html">
+                                <a href="/tin-tuc">
                                   Tự hào sinh ra từ đất Việt, 1999!
                                 </a>
                               </div>
                               <div className="img">
-                                <a href="./home.html">
+                                <a href="/tin-tuc">
                                   <img
                                     src="img/tuhaoTinTuc.jpg"
                                     alt="Tự hào sinh ra từ đất Việt, 1999!"
@@ -357,12 +347,10 @@ class Header extends Component {
                   </li>
                   <li className="menu-mega header-drop">
                     <div>
-                      <a href="./home.html" target="_self">
-                        <span>TRÁCH NHIỆM CỘNG ĐỒNG</span>
-                      </a>
-                      <a className="menuxt" href="./home.html">
+                      <Link to="/cong-dong"><span>TRÁCH NHIỆM CỘNG ĐỒNG</span></Link>
+                      <a className="menuxt">
                         <i className="fa fa-angle-right" aria-hidden="true" />
-                        <i className="fa fa-angle-down" aria-hidden="true" />
+                        <i className="fa fa-angle-down downB" aria-hidden="true" />
                       </a>
                     </div>
                     <div className="an congdong menuMega">
@@ -372,47 +360,41 @@ class Header extends Component {
                             <ul className="listL">
                               <li className="mega-item xemthemtd">
                                 <div>
-                                  <a href="./home.html" target="_self">
-                                    <span>GIÁ TRỊ VĂN HÓA VIỆT</span>
-                                  </a>
-                                  <a className="menuxt2" href="./home.html">
+                                  <Link to="/cong-dong"><span>GIÁ TRỊ VĂN HÓA VIỆT</span></Link>
+                                  <a className="menuxt2">
                                     <i
                                       className="fa fa-angle-right"
                                       aria-hidden="true"
                                     />
                                     <i
-                                      className="fa fa-angle-down"
+                                      className="fa fa-angle-down downB"
                                       aria-hidden="true"
                                     />
                                   </a>
                                 </div>
                                 <ul className="item-list menuxt2-show">
                                   <li className="items">
-                                    <a href="./home.html">
-                                      Đương Đại Hóa Tranh Đông Hồ
-                                    </a>
+                                    <Link to="/cong-dong">Đương Đại Hóa Tranh Đông Hồ</Link>
                                   </li>
                                 </ul>
                               </li>
                               <li className="mega-item xemthemtd">
                                 <div>
-                                  <a href="./home.html" target="_self">
-                                    <span>Cộng đồng</span>
-                                  </a>
-                                  <a className="menuxt2" href="./home.html">
+                                  <Link to="/cong-dong"><span>Cộng đồng</span></Link>
+                                  <a className="menuxt2">
                                     <i
                                       className="fa fa-angle-right"
                                       aria-hidden="true"
                                     />
                                     <i
-                                      className="fa fa-angle-down"
+                                      className="fa fa-angle-down downB"
                                       aria-hidden="true"
                                     />
                                   </a>
                                 </div>
                                 <ul className="item-list menuxt2-show">
                                   <li className="items">
-                                    <a href="./home.html">Lớp Học Cho Em</a>
+                                    <Link to="/cong-dong">Lớp Học Cho Em</Link>
                                   </li>
                                 </ul>
                               </li>
@@ -421,12 +403,12 @@ class Header extends Component {
                           <div className="col-2 col-sm-2 banner">
                             <div className="bannerMenu">
                               <div className="txt">
-                                <a href="./home.html">
+                                <a href="/cong-dong">
                                   Đương Đại Hóa Tranh Đông Hồ
                                 </a>
                               </div>
                               <div className="img">
-                                <a href="./home.html">
+                                <a href="/cong-dong">
                                   <img
                                     src="img/dongHoCongDong.jpg"
                                     alt="Đương Đại Hóa Tranh Đông Hồ"
@@ -442,12 +424,9 @@ class Header extends Component {
                   <li className="menu-mega header-drop">
                     <div>
                       <Link to="/vechungtoi" title="Về chúng tôi" ><span>VỀ CHÚNG TÔI</span></Link>
-                      {/* <a href="./home.html" target="_self">
-                        <span>VỀ CHÚNG TÔI</span>
-                      </a> */}
-                      <a className="menuxt" href="./home.html">
+                      <a className="menuxt">
                         <i className="fa fa-angle-right" aria-hidden="true" />
-                        <i className="fa fa-angle-down" aria-hidden="true" />
+                        <i className="fa fa-angle-down downB" aria-hidden="true" />
                       </a>
                     </div>
                     <div className="an vechungtoi menuMega">
@@ -456,25 +435,25 @@ class Header extends Component {
                           <div lass="col-9 col-sm-9 mega-left">
                             <ul className="listL">
                               <li className="mega-item">
-                                <a href="./home.html">KHỞI NGUỒN</a>
+                                <Link to="/vechungtoi">KHỞI NGUỒN</Link>
                               </li>
                               <li className="mega-item">
-                                <a href="./home.html">DỊCH VỤ KHÁCH HÀNG</a>
+                                <Link to="/vechungtoi">DỊCH VỤ KHÁCH HÀNG</Link>
                               </li>
                               <li className="mega-item">
-                                <a href="./home.html">NGHỀ NGHIỆP</a>
+                                <Link to="/vechungtoi">NGHỀ NGHIỆP</Link>
                               </li>
                             </ul>
                           </div>
                           <div className="col-2 col-sm-2 banner vct">
                             <div className="bannerMenu">
                               <div className="txt">
-                                <a href="./home.html">
+                                <a href="/vechungtoi">
                                   Thương hiệu bắt nguồn từ cà phê Việt
                                 </a>
                               </div>
                               <div className="img">
-                                <a href="./home.html">
+                                <a href="/vechungtoi">
                                   <img
                                     src="img/about_menu.png"
                                     alt="Thương hiệu bắt nguồn từ cà phê Việt"
@@ -488,7 +467,7 @@ class Header extends Component {
                     </div>
                   </li>
                   <li className="menu-mega">
-                    <a href="./home.html">LIÊN HỆ</a>
+                    <Link to="/lien-he">LIÊN HỆ</Link>
                   </li>
                   <li className="menu-mega rpsearch">
                     {" "}

@@ -472,3 +472,15 @@ a {}
 }
 
 .bxt-mail a i {color: #AD2C2D;}
+
+button.btn-close.btnX {
+  display: none;
+}
+
+a.menuxt, a.menuxt2 {
+  display: none !important;
+}
+
+li.menu-mega.rpsearch {
+  display: none;
+}

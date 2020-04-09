@@ -11,6 +11,7 @@
     padding: 0;
     left: 0;
     width: 100%;
+    overflow: hidden;
   }
   
   a {
@@ -324,7 +325,12 @@
       display: none;
   }
   
-  .col-9.col-sm-9.mega-left {width: 100%;display: inline-block;}
+  .col-9.col-sm-9.mega-left {
+    width: 100%;
+    display: inline-block;
+    padding: 0;
+    max-width: 100%;
+  }
   
   ul.listL {
       font-size: 19px;
@@ -500,7 +506,7 @@ button.btn-close {
 .menuTop ul li a {
   display: inline-block !important;
   color: black !important;
-  font-size: 15px;
+  font-size: 10px !important;
 }
 
 .menuTop ul li:hover {
@@ -650,6 +656,48 @@ li.mega-item ul li {
   border-bottom: 1px solid #b22830 !important;
 }
 
+.footer-bxt {
+  display: inline-block;
+  position: absolute;
+  float: right;
+  right: 0;
+  z-index: 999;
+}
+
+.bxt-top {
+  display: block;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 33px;
+  padding: 19px;
+  font-weight: 900;
+  border-radius: 50%;
+}
+
+
+
+.bxt-mail {
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 50%;
+  padding: 15px 11px;
+  text-align: center;
+  color: #AD2C2D !important;
+  font-size: 37px;
+}
+
+.bxt-mail a i {color: #AD2C2D;}
+
+a.menuxt {
+  float: right;
+  border-left: 1px solid #ccc;
+}
+
+a.menuxt2{
+  float: right;
+  border-left: 1px solid #ccc;
+}
+
 }
 
 
@@ -723,7 +771,7 @@ li.mega-item ul li {
     align-items: center;
     justify-content: flex-end;
     margin-bottom: 15px;
-    left: 55%;
+    left: 37%;
   }
   
   .searchTop {
@@ -1105,10 +1153,11 @@ li.mega-item ul li {
 
   
 .menuTop.hidden-sm.hidden-xs {
-  width: 80% !important;
+  width: 70% !important;
   background: none !important;
-  top: 58%;
+  top: 68%;
   display: none;
+  right: 28px;
 }
 
 li.menu-list a, li.menu-mega a {
@@ -1154,7 +1203,7 @@ button.btn-close {
 }
 
 a.menuxt, a.menuxt2 {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .an.menuMega {
@@ -1294,6 +1343,77 @@ li.mega-item ul li {
 
 .listL.mega-item {
   border-bottom: 1px solid #b22830 !important;
+}
+
+.footer-bxt {
+  display: inline-block;
+  position: absolute;
+  float: right;
+  right: 0;
+  bottom: -82%;
+  z-index: 999;
+}
+
+.bxt-top {
+  display: block;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-size: 33px;
+  padding: 19px;
+  font-weight: 900;
+  border-radius: 50%;
+}
+
+
+
+.bxt-mail {
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 50%;
+  padding: 15px 11px;
+  text-align: center;
+  color: #AD2C2D !important;
+  font-size: 37px;
+}
+
+.bxt-mail a i {color: #AD2C2D;}
+
+.div_search {
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.div_search input {
+  padding: 7px;
+  font-size: 12px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.div_search img {
+  position: absolute;
+  right: 22px;
+  bottom: 26px;
+}
+
+a.menuxt {
+  float: right;
+  border-left: 1px solid #ccc;
+}
+
+.col-12.col-sm-12.mega1.caphe {
+  padding: 1px;
+}
+
+a.menuxt2 {
+  float: right;
+  border-left: 1px solid #eee;
+}
+
+
+li.menu-mega.rpsearch {
+  display: block;
 }
  
 }
