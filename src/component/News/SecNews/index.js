@@ -5,7 +5,7 @@ class SecNews extends Component {
   render() {
     return (
       <div className="tt_sect">
-        <Link to="/chitiettin">
+        <Link to="/thu-xin-lo-i-chi-nh-thu-c-khach-hang-le-va-n-tru-o-ng">
         <img
             src={this.props.anh}
             alt="Thư xin lỗi chính thức khác hàng Lê Văn Trường"
@@ -17,7 +17,7 @@ class SecNews extends Component {
             alt="Thư xin lỗi chính thức khác hàng Lê Văn Trường"
           />
         </a> */}
-        <Link to="/chitiettin" title="chi tiet">
+        <Link to="/thu-xin-lo-i-chi-nh-thu-c-khach-hang-le-va-n-tru-o-ng" title="chi tiet">
           <h6 className="tt_tenItem">
             {this.props.title}
           </h6>

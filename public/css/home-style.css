@@ -427,7 +427,7 @@ form.contectB {
 }
 
 .timeContent {
-    transform: translateY(-19px);
+    transform: translateY(0px);
     text-align: left;
 }
 

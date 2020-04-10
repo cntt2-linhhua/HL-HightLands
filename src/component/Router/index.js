@@ -11,6 +11,7 @@ import About from '../About';
 import News from '../News';
 import Publics from '../Publics';
 import Contact from '../Contact';
+import DetailNews from '../DetailNew';
 
 class Routers extends Component {
   render() {
@@ -21,7 +22,8 @@ class Routers extends Component {
           <Route exact path={ROUTES.ABOUT} component={About}/>
           <Route exact path={ROUTES.NEWS} component={News}/>
           <Route exact path={ROUTES.PUBLIC} component={Publics}/>
-          <Route exact path={ROUTES.CONTACT} component={Contact}/>
+          <Route exact path={ROUTES.CONTACT} component={Contact}/>          
+          <Route exact path={ROUTES.DETAILNEWS} component={DetailNews}/>
           {/* <Route exact path={ROUTES.MENUCATEGORY} component={MenuCategory}/> */}
           {/* <Route exact path={ROUTES.NEWS} component={}/> */}
         </Switch>
