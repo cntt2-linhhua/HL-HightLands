@@ -11,7 +11,7 @@
     padding: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   
   a {
@@ -658,9 +658,10 @@ li.mega-item ul li {
 
 .footer-bxt {
   display: inline-block;
-  position: absolute;
+  position: fixed;
   float: right;
   right: 0;
+  top: 90%;
   z-index: 999;
 }
 
@@ -1347,10 +1348,10 @@ li.mega-item ul li {
 
 .footer-bxt {
   display: inline-block;
-  position: absolute;
+  position: fixed;
   float: right;
   right: 0;
-  bottom: -82%;
+  top: 90%;
   z-index: 999;
 }
 

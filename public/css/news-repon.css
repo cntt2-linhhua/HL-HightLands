@@ -3,7 +3,7 @@
     display: block;
     margin: 0;
     padding: 0;
-    margin-top: 157px;
+    margin-top: 0;
   }
   
   .tt_container {
@@ -116,7 +116,7 @@
     display: block;
     margin: 0;
     padding: 0;
-    margin-top: 0;
+    margin-top: 0 !important;
   }
   
   .tt_container {
@@ -134,8 +134,8 @@
   }
   
   li.tt_item {
-    display: inline-block;
-    width: 49%;
+    display: inline-block !important;
+    width: 100% !important;
     padding: 0 10px;
     vertical-align: text-top;
   }
@@ -228,7 +228,7 @@
   display: block;
   margin: 0;
   padding: 0;
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 
 .tt_container {
@@ -246,8 +246,8 @@ ul.tt_list {
 }
 
 li.tt_item {
-  display: inline-block;
-  width: 100%;
+  display: block !important;
+  width: 100% !important;
   padding: 0 10px;
   vertical-align: text-top;
 }
