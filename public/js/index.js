@@ -6,14 +6,22 @@ function showSlides() {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+      if( slides[i].classList.contains('block')) {
+        slides[i].classList.remove('block');
+      } 
+       
+       //slides[i].className += " none";  
+      //  slides[i].style.display = "none";  
     }
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
     // console.log(slides[slideIndex]);
     
-    slides[slideIndex].style.display = "block";  
+    // slides[slideIndex].style.display = "block";  
+    //console.log( slides[slideIndex]);
+    
+    slides[slideIndex].className += " block";  
     dots[slideIndex].className += " active";
     //chuyển đến slide tiếp theo
     slideIndex++;

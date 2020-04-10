@@ -73,7 +73,7 @@ class Header extends Component {
                     </a> */}
                   </li>
                   <li className="menu-mega header-drop">
-                    <Link to="/menu"><span>THỰC ĐƠN</span></Link>
+                    <Link to="/san-pham"><span>THỰC ĐƠN</span></Link>
                     <a className="menuxt" >
                       <i className="fa fa-angle-right downR" aria-hidden="true" />
                       <i className="fa fa-angle-down downB" aria-hidden="true" />

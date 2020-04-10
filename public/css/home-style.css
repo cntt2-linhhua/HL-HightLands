@@ -32,7 +32,10 @@
 
 /* Ẩn các slider */
 .mySlides {
-  display: none;
+ display: none;
+}
+.mySlides.block {
+  display: block;
 }
 /* Định dạng nội dung Caption */
 .h-button-slider {
@@ -278,7 +281,7 @@ button.item2 {
     background-image: url('https://highlandscoffee.com.vn/vnt_upload/weblink/bg2.jpg');
     background-repeat: no-repeat;
     background-position: unset;
-    background-size: auto;
+    background-size: cover;
 }
 
 .titleR {
@@ -429,10 +432,6 @@ form.contectB {
 .timeContent {
     transform: translateY(0px);
     text-align: left;
-}
-
-.sl1 {
-  display: block;
 }
 
 .sl2 {

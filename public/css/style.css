@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 22px;
   color: #333333;
@@ -11,7 +11,9 @@ body {
   margin: auto;
   padding: 0;
   left: 0;
-  overflow-x: hidden;
+  right: 0;
+  max-width: 100%;
+  width: 100%;
 }
 
 a {
@@ -19,7 +21,10 @@ a {
   transition: all 0.3s linear;
 }
 
-a, a:hover, a:visited, a:focus {
+a,
+a:hover,
+a:visited,
+a:focus {
   text-decoration: none;
 }
 
@@ -129,13 +134,15 @@ img {
   background: #53382c;
 }
 
-
 a {
   color: #333333;
   transition: all 0.3s linear;
 }
 
-a, a:hover, a:visited, a:focus {
+a,
+a:hover,
+a:visited,
+a:focus {
   text-decoration: none;
 }
 
@@ -144,302 +151,295 @@ img {
   max-width: 100%;
 }
 .menuTop ul {
-    display: block;
-    font-weight: bold;
-    padding: 0;
+  display: block;
+  font-weight: bold;
+  padding: 0;
 }
 
-li.menu-list , li.menu-mega {
-    display: inline-block;
-    font-weight: 700;
-    list-style-type: none;
-    margin: 5px;
-    padding: 13px 4px;
-    font-size: 20px;
+li.menu-list,
+li.menu-mega {
+  display: inline-block;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 5px;
+  padding: 13px 4px;
+  font-size: 20px;
 }
 
 .menuTop li:hover {
-    background-color: #53382c;
+  background-color: #53382c;
 }
 
-li.menu-list a , li.menu-mega a {
-    display: block;
-    color: #fff;
+li.menu-list a,
+li.menu-mega a {
+  display: block;
+  color: #fff;
 }
 
 .menuTop li:hover a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .menuMega {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    background-color: #53382c;
-    top: 78%;
-    z-index: 100;
-    display: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #53382c;
+  top: 78%;
+  z-index: 100;
+  display: none;
 }
 .menuTop li:hover .menuMega {
-    display: block;
+  display: block;
 }
 
 .menu-mega .menuMega {
-    z-index: 100;
+  z-index: 100;
 }
 
-
-
-
 .grid {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .menuMega .wrapper {
-    margin: 0 0 !important;
-    display: block !important;
-    width: 100%;
-    padding: 0;
+  margin: 0 0 !important;
+  display: block !important;
+  width: 100%;
+  padding: 0;
 }
 
 .col-10.col-sm-10.mega1 {
-    display: inline-block;
-    margin: 0;
-    padding: 10px 0px;
-    float: left;
+  display: inline-block;
+  margin: 0;
+  padding: 10px 0px;
+  float: left;
 }
 
 .mega1 ul {
-    display: block;
-    margin: 0;
-    padding: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
 li.mega-item {
-    width: 20%;
-    display: inline-block;
-    text-align: center;
-    top: 0;
-    height: 100%;
-    padding-bottom: 10px;
-    float: left;
-    line-height: 1.5;
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  padding-bottom: 10px;
+  float: left;
+  line-height: 1.5;
 }
 
 ul.item-list {
-    list-style-type: none;
-    top: 10px;
+  list-style-type: none;
+  top: 10px;
 }
 
 ul.listL {
-    padding: 22px 10px;
+  padding: 22px 10px;
 }
 
 .mega-item a {
-    color: rgb(229, 172, 87) !important;
+  color: rgb(229, 172, 87) !important;
 }
 
 li.items a {
-    color: #fff !important;
-    font-weight: 500;
+  color: #fff !important;
+  font-weight: 500;
 }
 
 .logo {
-    transform: translate(70%, 3%);
+  transform: translate(70%, 3%);
 }
 
 .col-2.col-sm-2.banner {
-    display: inline-block;
-    width: 20%;
-    float: right;
-    right: 0px;
-    padding: 31px;
+  display: inline-block;
+  width: 20%;
+  float: right;
+  right: 0px;
+  padding: 31px;
 }
 
 .col-10.col-sm-10.mega-left {
-    display: inline-block;
-    padding-right: 0;
+  display: inline-block;
+  padding-right: 0;
 }
 
 .bannerMenu {
-    display: block;
-    padding: 16px;
-    background-image: url('https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: block;
+  padding: 16px;
+  background-image: url("https://www.highlandscoffee.com.vn/skins/default/images/bgmenu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .txt {
-    display: block;
-    margin-bottom: 17px;
-    text-align: left;
+  display: block;
+  margin-bottom: 17px;
+  text-align: left;
 }
 
 .txt a {
-    display: block;
-    color: #E5AC57 !important;
-    font-size: 22px;
-    line-height: 1.3;
+  display: block;
+  color: #e5ac57 !important;
+  font-size: 22px;
+  line-height: 1.3;
 }
 
 .img a img {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 .mega-item:hover a {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .items:hover a {
-    display: inline-block;
+  display: inline-block;
 }
 .items:hover i.muiten {
-    display: inline-block;
+  display: inline-block;
 }
 .muiten {
-    display: none;
-    float: left;
-    margin-right: 7px;
-    color: #fff;
-    font-weight: bold;
+  display: none;
+  float: left;
+  margin-right: 7px;
+  color: #fff;
+  font-weight: bold;
 }
-
 
 .menuTop.hidden-sm.hidden-xs {
-    text-align: center;
-    font-size: 18px;
+  text-align: center;
+  font-size: 18px;
 }
 
-.col-9.col-sm-9.mega-left {width: 70%;display: inline-block;}
+.col-9.col-sm-9.mega-left {
+  width: 70%;
+  display: inline-block;
+}
 
 ul.listL {
-    font-size: 19px;
+  font-size: 19px;
 }
 
 li.mega-item ul {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .vct {
-    padding-top: 0 !important;
+  padding-top: 0 !important;
 }
 
-
-
-
-
-
-
-
 footer.footer {
-    display: block;
-    width: 100%;
-    margin: 0px;
-    padding: 0;
-    background: #53382C;
-    color: #fff;
-    /* position: relative; */
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 0;
+  background: #53382c;
+  color: #fff;
+  /* position: relative; */
 }
 
 .footerIcon {
-    display: block;
-    list-style-type: none;
+  display: block;
+  list-style-type: none;
 }
 
 ul.iconMenu {
-    display: inline-block;
-    list-style-type: none;
-    width: 100%;
-    padding: 0;
-    position: relative;
+  display: inline-block;
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  position: relative;
 }
 
 .footerB {
-    display: block;
+  display: block;
 }
 
 .footerContent {
-    display: block;
-    width: 100%;
-    position: relative;
-    padding-left: 10px;
+  display: block;
+  width: 100%;
+  position: relative;
+  padding-left: 10px;
 }
 
-ul.footerul {display: block;list-style-type: none;color: #fff;padding: 10px 78px;margin: 0;width: 100%;}
+ul.footerul {
+  display: block;
+  list-style-type: none;
+  color: #fff;
+  padding: 10px 78px;
+  margin: 0;
+  width: 100%;
+}
 
-li.iconitem {display: inline-block;}
+li.iconitem {
+  display: inline-block;
+}
 
 .iconitem a {
-    color: #fff;
+  color: #fff;
 }
 
 li.iconItem a {
-    display: flex;
-    align-items: center;
-    color: #343434;
-    /* margin: 0px; */
+  display: flex;
+  align-items: center;
+  color: #343434;
+  /* margin: 0px; */
 }
 
 li.iconItem {
-    display: inline-block;
-    padding: 7px;
-    background: #fff;
-    margin: 4px;
+  display: inline-block;
+  padding: 7px;
+  background: #fff;
+  margin: 4px;
 }
 
 li.footeritem {
-    /* width: 20%; */
-    margin: 0px 8px;
-    display: inline-block;
-    font-size: 12px;
+  /* width: 20%; */
+  margin: 0px 8px;
+  display: inline-block;
+  font-size: 12px;
 }
 
 li.footeritem a {
-    color: #fff;
+  color: #fff;
 }
 
 li.footeritem a:hover {
-    text-decoration:none;
-    color: #F1BC7A;
+  text-decoration: none;
+  color: #f1bc7a;
 }
 
 .iconItem a i {
-    color: #343434;
+  color: #343434;
 }
 
-
-
 .imgContentB {
-    display: inline-block;
-    width: 120px;
-    height: 67.38px;
+  display: inline-block;
+  width: 120px;
+  height: 67.38px;
 }
 
 .imgContentB img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-
-.menu_default{
+.menu_default {
   display: none;
-} 
-
-
-
-  .icon {
-
-color: #ccc;
-
 }
 
-  .icon i {
-    
-font-size: 30px;
-  }
+.icon {
+  color: #ccc;
+}
 
-
+.icon i {
+  font-size: 30px;
+}
 
 .footer-bxt {
   display: inline-block;
@@ -460,7 +460,8 @@ font-size: 30px;
   border-radius: 50%;
 }
 
-a {}
+a {
+}
 
 .bxt-mail {
   border: 1px solid #ccc;
@@ -468,17 +469,20 @@ a {}
   border-radius: 50%;
   padding: 15px 11px;
   text-align: center;
-  color: #AD2C2D !important;
+  color: #ad2c2d !important;
   font-size: 37px;
 }
 
-.bxt-mail a i {color: #AD2C2D;}
+.bxt-mail a i {
+  color: #ad2c2d;
+}
 
 button.btn-close.btnX {
   display: none;
 }
 
-a.menuxt, a.menuxt2 {
+a.menuxt,
+a.menuxt2 {
   display: none !important;
 }
 
