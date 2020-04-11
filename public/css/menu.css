@@ -6,6 +6,7 @@
 
 .td_container {
   display: inline-block;
+
 }
 
 .td-block {
@@ -84,7 +85,7 @@
 .content-1 {
   margin: 52px 34px 0 0px;
   text-align: right;
-  width: 47%;
+  width: 45%;
   display: inline-block;
   top: 0;
 }
@@ -105,7 +106,7 @@ h1.td_tt1 {font-weight: 800;font-size: 50px;padding: 0;}
 .td_block4 {
   display: block;
   background-image: url(https://highlandscoffee.com.vn/vnt_upload/product/03_2018/menu-BANHMI-bg_2.jpg);
-  padding-bottom: 0;
+  padding-bottom: 70px;
   background-repeat: no-repeat;
   color: #fff;
   background-size: cover;
@@ -123,8 +124,6 @@ h1.td_tt1 {font-weight: 800;font-size: 50px;padding: 0;}
     color: #016501;
 }
 
-.td_img.td_right.menuimg1 img {
-}
 
 .td_img.menuimg2.td_left img {
     transform: translateY(6px);

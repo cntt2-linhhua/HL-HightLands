@@ -489,3 +489,24 @@ a.menuxt2 {
 li.menu-mega.rpsearch {
   display: none;
 }
+
+.timquan {
+  display: none;
+  text-align: center;
+  padding: 1%;
+}
+
+.timquan a {
+  display: inline-block;
+  color: #fff;
+  background: #AD2C2D;
+  width: 20%;
+  padding:  1% 0;
+  font-weight: 100;
+  font-size: medium;
+}
+
+.timquan a i {
+  font-size: 20px;
+  padding: 0 1%;
+}

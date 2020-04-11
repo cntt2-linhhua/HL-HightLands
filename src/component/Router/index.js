@@ -13,6 +13,7 @@ import Publics from '../Publics';
 import Contact from '../Contact';
 import DetailNews from '../DetailNew';
 import Menu from '../Menu';
+import Checkout from '../Checkout';
 
 class Routers extends Component {
   render() {
@@ -26,6 +27,7 @@ class Routers extends Component {
           <Route exact path={ROUTES.CONTACT} component={Contact}/>          
           <Route exact path={ROUTES.DETAILNEWS} component={DetailNews}/>
           <Route exact path={ROUTES.MENUCATEGORY} component={Menu}/>
+          <Route exact path={ROUTES.CHECKOUT} component={Checkout}/>
           {/* <Route exact path={ROUTES.MENUCATEGORY} component={MenuCategory}/> */}
           {/* <Route exact path={ROUTES.NEWS} component={}/> */}
         </Switch>

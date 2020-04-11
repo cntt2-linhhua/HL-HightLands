@@ -677,7 +677,20 @@ li.mega-item ul li {
   border-radius: 50%;
 }
 
+.timquan{
+  display: block;
+}
 
+.timquan a {
+  display: inline-block;
+  color: #fff;
+  background: #AD2C2D;
+  width: 49%;
+  padding: 3% 0;
+  font-weight: 100;
+  margin: 6% 0 2px;
+  font-size: medium;
+}
 
 .bxt-mail {
   border: 1px solid #ccc;
@@ -1420,6 +1433,21 @@ a.menuxt2 {
 
 li.menu-mega.rpsearch {
   display: block;
+}
+
+.timquan{
+  display: block;
+}
+
+.timquan a {
+  display: inline-block;
+  color: #fff;
+  background: #AD2C2D;
+  width: 49%;
+  padding: 3% 0;
+  font-weight: 100;
+  margin: 6% 0 2px;
+  font-size: medium;
 }
  
 }

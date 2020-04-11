@@ -354,9 +354,6 @@
       padding-top: 10px;
   }
   
-  .timeContent span {
-  }
-  
   form.contectB {
       display: block;
       width: 100%;
@@ -421,6 +418,10 @@
   .timeContent {
       transform: translateY(-19px);
       text-align: left;
+  }
+
+  .timquan {
+    display: block;
   }
 }
 
@@ -841,5 +842,9 @@ form.contectB {
 .timeContent {
     transform: translateY(3px);
     text-align: left;
+}
+
+.timquan {
+  display: block;
 }
 }
