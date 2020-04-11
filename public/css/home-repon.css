@@ -652,8 +652,8 @@ button.item2 {
 .content {
     display: block;
     float: right;
-    width: 50%;
-    margin: 42px 0;
+    width: 100%;
+    margin: 43px 0;
     font-family: 'Tangerine', serif;
     color: #FFFFFF;
 }
@@ -665,6 +665,7 @@ button.item2 {
     width: 100%;
     font-weight: bold !important;
     text-transform: uppercase;
+    margin: 0;
     font-family: cursive;
 }
 

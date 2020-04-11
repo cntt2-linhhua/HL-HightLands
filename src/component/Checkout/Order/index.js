@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Order extends Component {
   render() {
@@ -6,7 +7,10 @@ class Order extends Component {
       <div className="C-cart">
         <div className="C-dathang">
           <div className="C-titleDat">
+            <Link to="/xac-nhan-thong-tin-don-hang">
             <button>{this.props.titles}</button>
+            </Link>
+            
           </div>
           <div>
             <div className="dathang">
