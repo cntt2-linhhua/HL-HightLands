@@ -53,7 +53,7 @@ p.C-icon {
 
 .C-cart {
   display: inline-block;
-  transform: translateX(44px);
+  transform: translateX(0);
   width: 32%;
   padding: 26px 10px;
 }

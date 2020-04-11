@@ -16,14 +16,15 @@
 
 export const HOME = '/';
 export const MENUCATEGORY = '/san-pham';
-export const CATEGORY = '/ca-phe';
-export const PRODUCT = '/ca-phe-den-da';
+export const CATEGORY = '/ca_phe';
+export const PRODUCT = '/caramel-phin-preeze';
 export const NEWS = '/tin-tuc';
 export const DETAILNEWS = '/thu-xin-lo-i-chi-nh-thu-c-khach-hang-le-va-n-tru-o-ng';
 export const PUBLIC = '/cong-dong';
 export const ABOUT = '/vechungtoi';
 export const CONTACT = '/lien-he';
 export const CHECKOUT = '/xac-nhan-thong-tin-don-hang';
+
 // export const ABOUT = '/about';
 // export const HEALTH = '/health';
 // export const FOOD = '/food';

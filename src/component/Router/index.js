@@ -14,6 +14,8 @@ import Contact from '../Contact';
 import DetailNews from '../DetailNew';
 import Menu from '../Menu';
 import Checkout from '../Checkout';
+import Product from '../Product';
+import Category from '../Category';
 
 class Routers extends Component {
   render() {
@@ -28,7 +30,8 @@ class Routers extends Component {
           <Route exact path={ROUTES.DETAILNEWS} component={DetailNews}/>
           <Route exact path={ROUTES.MENUCATEGORY} component={Menu}/>
           <Route exact path={ROUTES.CHECKOUT} component={Checkout}/>
-          {/* <Route exact path={ROUTES.MENUCATEGORY} component={MenuCategory}/> */}
+          <Route exact path={ROUTES.PRODUCT} component={Product}/>
+          <Route exact path={ROUTES.CATEGORY} component={Category}/>
           {/* <Route exact path={ROUTES.NEWS} component={}/> */}
         </Switch>
       </div>

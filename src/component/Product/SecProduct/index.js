@@ -5,12 +5,12 @@ class SecProduct extends Component {
     return (
       <div className="relacePro">
         <div className="imgrelace">
-          <img src="../img/CLASSIC-FREEZE.png" alt="CLASSIC-FREEZE" />
+          <img src={this.props.anhPr} alt="CLASSIC-FREEZE" />
         </div>
         <div className="detailRelace">
-          <h1>CLASSIC PHIN FREEZE</h1>
+          <h1>{this.props.name}</h1>
           <p>
-            Giá : <span className="pro-span">49,000 VNĐ</span>
+            Giá : <span className="pro-span">{this.props.price}</span>
           </p>
         </div>
       </div>
