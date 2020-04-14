@@ -35,26 +35,33 @@ class Menu extends Component {
       catePro : [
         {
           cate_id : 'ca_phe',
+          cate_name: 'Cà phê',
           products : []
         },
         {
           cate_id : 'tra',
+          cate_name : 'Trà',
           products : []
         },
         {
           cate_id : 'thuc_uong_da_xay',
+          cate_name : 'Thức uống đá xay',
+
           products : []
         },
         {
           cate_id : 'thuc_uong_trai_cay',
+          cate_name : 'Thức uống trái cây',
           products : []
         },
         {
           cate_id : 'banh_snack',
+          cate_name : 'Bánh snack',
           products : []
         },
         {
           cate_id : 'mon_noi_bat',
+          cate_name : 'Món nổi bật',
           products : []
         }
       ]
@@ -65,22 +72,24 @@ class Menu extends Component {
     this.setState({
       data: info.data
     }); 
-    var proCates = this.state.proCate;
-    console.log(proCates);
+    var proCates = this.state.catePro;
+    // console.log(proCates);
     
     this.state.catePro.map((value,key) => {
-      let products = [];
+      let products = [];  // ni để lấy ra cái list products mà có cate= ...
       info.data.map ( (val,key) => {
-        if(val.product_category_id === val.cate_id){
+        if(val.product_category_id === value.cate_id){
           products.push(val);
         }
 
       })
-      proCates[key].products= products
+      console.log(products);
+      // yến cái dòng chỗ ni để làm j á
+      proCates[key].products= products; // ni để push cái list product vô cái mảng chứa đối tượng của cate á 
       
     })
     this.setState({
-      proCate: proCates
+      catePro: proCates
     });
     
   }
@@ -127,7 +136,7 @@ class Menu extends Component {
 
   }
   render() {
-    // console.log(this.state.catePro);
+    console.log(this.state.catePro);
     
     return (
       <nav className="td_content">
@@ -135,35 +144,30 @@ class Menu extends Component {
         <div className="td_container">
         {/* {this.state.data.map((item,key) => { */}
         {   
-        this.state.data.map((item,key) => {
+        this.state.catePro.map((item,key) => {
           // console.log(key);
-          if(key%2===0) {
+          if(key%2===0 ) {
             
             
             return(<MenuLeft
             key= {key}
-            id={item._id}
-            anhCate={item.image}
+            id={item.cate_id}
+            anhCate={item.products[0] ? item.products[0].image : null}
             // anhCate="img/menu-caphe.png"
             background="td_block1"
-            nameCate={item.product_name}
-            description="Sự kết hợp hoàn hảo giữa hạt cà phê Robusta &amp; Arabica
-          thượng hạng được trồng trên những vùng cao nguyên cao Việt Nam
-          màu mỡ, qua những bí quyết rang xay độc đáo, Hightlands Coffee
-          chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang
-          hương vị đậm đà và tinh tế."
+            nameCate={item.cate_name}
+            description={item.products[0] ? item.products[0].description : null}
           ></MenuLeft>
         )} 
         else {
           return (
             <MenuRight
             key= {key}
-            anhCate="img/menu-FREEZE.png"
+            id={item.cate_id}
+            anhCate={item.products[0] ? item.products[0].image : null}
             background="td_bloc2"
-            nameCate="FREEZE"
-            description="Sảng khoái với thức uống đá xay phong cách Việt. Freeze là
-          thức uống đá xay mát lạnh được pha chế từ những nguyên liệu
-          thuần túy của Việt Nam."
+            nameCate={item.cate_name}
+            description={item.products[0] ? item.products[0].description : null}
           ></MenuRight>
        
           )

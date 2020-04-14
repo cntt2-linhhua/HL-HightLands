@@ -511,3 +511,7 @@ li.menu-mega.rpsearch {
   font-size: 20px;
   padding: 0 1%;
 }
+
+.contentItem a img {
+  width: 100%;
+}
