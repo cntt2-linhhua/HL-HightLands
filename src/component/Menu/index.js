@@ -1,13 +1,167 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import MenuLeft from "./MenuLeft";
 import MenuRight from "./MenuRight";
+import info from "./data.json";
+
+var listPro = [];
 
 class Menu extends Component {
+
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     data: []
+  //   }
+  // }
+
+  
+
+  // componentDidMount () {
+  //   fetch(info)
+  //   .then( result => result.json())
+  //   .then((res) => {
+  //     console.log(res.data);
+      
+  //     this.setState({
+  //       data: res.data
+  //     });
+  //   }).catch (console.log);    
+  // }
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: [],
+      catePro : [
+        {
+          cate_id : 'ca_phe',
+          products : []
+        },
+        {
+          cate_id : 'tra',
+          products : []
+        },
+        {
+          cate_id : 'thuc_uong_da_xay',
+          products : []
+        },
+        {
+          cate_id : 'thuc_uong_trai_cay',
+          products : []
+        },
+        {
+          cate_id : 'banh_snack',
+          products : []
+        },
+        {
+          cate_id : 'mon_noi_bat',
+          products : []
+        }
+      ]
+    }
+  }
+
+  componentDidMount () {
+    this.setState({
+      data: info.data
+    }); 
+    this.state.catePro.map((value,key) => {
+      let products = [];
+      info.data.map ( (val,key) =>{
+        if(val.product_category_id ==value.cate_id){
+          // products>bb
+        }
+      })
+    })
+    
+  }
+  
+  getList =()=>{
+    listPro = [];
+   this.state.data.map((item,key) => {
+      // console.log(key);
+      if(key%2===0) {
+        
+        
+        listPro.push(<MenuLeft
+        key= {key}
+        id={item._id}
+        anhCate={item.image}
+        // anhCate="img/menu-caphe.png"
+        background="td_block1"
+        nameCate={item.product_name}
+        description="Sự kết hợp hoàn hảo giữa hạt cà phê Robusta &amp; Arabica
+      thượng hạng được trồng trên những vùng cao nguyên cao Việt Nam
+      màu mỡ, qua những bí quyết rang xay độc đáo, Hightlands Coffee
+      chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang
+      hương vị đậm đà và tinh tế."
+      ></MenuLeft>
+    )} 
+    else {
+      listPro.push (
+        <MenuRight
+        key= {key}
+        anhCate="img/menu-FREEZE.png"
+        background="td_bloc2"
+        nameCate="FREEZE"
+        description="Sảng khoái với thức uống đá xay phong cách Việt. Freeze là
+      thức uống đá xay mát lạnh được pha chế từ những nguyên liệu
+      thuần túy của Việt Nam."
+      ></MenuRight>
+   
+      )
+    }
+    } )
+  }
+
+  getCatePro = () =>{
+
+  }
   render() {
+    console.log(listPro);
+    
     return (
       <nav className="td_content">
+          {/* { console.log(info)} */}
         <div className="td_container">
-          <MenuLeft
+        {/* {this.state.data.map((item,key) => { */}
+        {   
+        this.state.data.map((item,key) => {
+          // console.log(key);
+          if(key%2===0) {
+            
+            
+            return(<MenuLeft
+            key= {key}
+            id={item._id}
+            anhCate={item.image}
+            // anhCate="img/menu-caphe.png"
+            background="td_block1"
+            nameCate={item.product_name}
+            description="Sự kết hợp hoàn hảo giữa hạt cà phê Robusta &amp; Arabica
+          thượng hạng được trồng trên những vùng cao nguyên cao Việt Nam
+          màu mỡ, qua những bí quyết rang xay độc đáo, Hightlands Coffee
+          chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang
+          hương vị đậm đà và tinh tế."
+          ></MenuLeft>
+        )} 
+        else {
+          return (
+            <MenuRight
+            key= {key}
+            anhCate="img/menu-FREEZE.png"
+            background="td_bloc2"
+            nameCate="FREEZE"
+            description="Sảng khoái với thức uống đá xay phong cách Việt. Freeze là
+          thức uống đá xay mát lạnh được pha chế từ những nguyên liệu
+          thuần túy của Việt Nam."
+          ></MenuRight>
+       
+          )
+        }
+        } )
+        }
+          {/* <MenuLeft
             anhCate="img/menu-caphe.png"
             background="td_block1"
             nameCate="CÀ PHÊ"
@@ -42,7 +196,7 @@ class Menu extends Component {
           kết hợp hoàn hảo giữa lớp nhân chua, cay, mặn, ngọt quyện với
           lớp vỏ bánh mì giòn tan, mịn màng tạo ra tầng tầng lớp lớp dư
           vị cho thực khách."
-          ></MenuRight>
+          ></MenuRight> */}
         </div>
       </nav>
     );

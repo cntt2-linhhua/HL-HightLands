@@ -6,7 +6,7 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <div className="timquan">
-          <Link>
+          <Link to="http://google.com.vn">
             <i className="fa fa-map-marker" />
             <span>VIEW MAP</span>
           </Link>
