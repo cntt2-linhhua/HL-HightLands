@@ -65,60 +65,69 @@ class Menu extends Component {
     this.setState({
       data: info.data
     }); 
+    var proCates = this.state.proCate;
+    console.log(proCates);
+    
     this.state.catePro.map((value,key) => {
       let products = [];
-      info.data.map ( (val,key) =>{
-        if(val.product_category_id ==value.cate_id){
-          // products>bb
+      info.data.map ( (val,key) => {
+        if(val.product_category_id === val.cate_id){
+          products.push(val);
         }
+
       })
+      proCates[key].products= products
+      
     })
+    this.setState({
+      proCate: proCates
+    });
     
   }
   
-  getList =()=>{
-    listPro = [];
-   this.state.data.map((item,key) => {
-      // console.log(key);
-      if(key%2===0) {
+  // getList =()=>{
+  //   listPro = [];
+  //  this.state.data.map((item,key) => {
+  //     // console.log(key);
+  //     if(key%2===0) {
         
         
-        listPro.push(<MenuLeft
-        key= {key}
-        id={item._id}
-        anhCate={item.image}
-        // anhCate="img/menu-caphe.png"
-        background="td_block1"
-        nameCate={item.product_name}
-        description="Sự kết hợp hoàn hảo giữa hạt cà phê Robusta &amp; Arabica
-      thượng hạng được trồng trên những vùng cao nguyên cao Việt Nam
-      màu mỡ, qua những bí quyết rang xay độc đáo, Hightlands Coffee
-      chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang
-      hương vị đậm đà và tinh tế."
-      ></MenuLeft>
-    )} 
-    else {
-      listPro.push (
-        <MenuRight
-        key= {key}
-        anhCate="img/menu-FREEZE.png"
-        background="td_bloc2"
-        nameCate="FREEZE"
-        description="Sảng khoái với thức uống đá xay phong cách Việt. Freeze là
-      thức uống đá xay mát lạnh được pha chế từ những nguyên liệu
-      thuần túy của Việt Nam."
-      ></MenuRight>
+  //       listPro.push(<MenuLeft
+  //       key= {key}
+  //       id={item._id}
+  //       anhCate={item.image}
+  //       // anhCate="img/menu-caphe.png"
+  //       background="td_block1"
+  //       nameCate={item.product_name}
+  //       description="Sự kết hợp hoàn hảo giữa hạt cà phê Robusta &amp; Arabica
+  //     thượng hạng được trồng trên những vùng cao nguyên cao Việt Nam
+  //     màu mỡ, qua những bí quyết rang xay độc đáo, Hightlands Coffee
+  //     chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang
+  //     hương vị đậm đà và tinh tế."
+  //     ></MenuLeft>
+  //   )} 
+  //   else {
+  //     listPro.push (
+  //       <MenuRight
+  //       key= {key}
+  //       anhCate="img/menu-FREEZE.png"
+  //       background="td_bloc2"
+  //       nameCate="FREEZE"
+  //       description="Sảng khoái với thức uống đá xay phong cách Việt. Freeze là
+  //     thức uống đá xay mát lạnh được pha chế từ những nguyên liệu
+  //     thuần túy của Việt Nam."
+  //     ></MenuRight>
    
-      )
-    }
-    } )
-  }
+  //     )
+  //   }
+  //   } )
+  // }
 
   getCatePro = () =>{
 
   }
   render() {
-    console.log(listPro);
+    // console.log(this.state.catePro);
     
     return (
       <nav className="td_content">
