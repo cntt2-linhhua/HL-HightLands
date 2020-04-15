@@ -442,3 +442,7 @@ form.contectB {
 .sl3 {
   display: none;
 }
+
+.td_img.td_right.menuimg1 img {
+  width: 53%;
+}
