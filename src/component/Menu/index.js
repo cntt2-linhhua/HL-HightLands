@@ -3,7 +3,7 @@ import MenuLeft from "./MenuLeft";
 import MenuRight from "./MenuRight";
 import info from "./data.json";
 
-var listPro = [];
+// var listPro = [];
 
 class Menu extends Component {
 
@@ -83,7 +83,7 @@ class Menu extends Component {
         }
 
       })
-      console.log(products);
+      // console.log(products);
       // yến cái dòng chỗ ni để làm j á
       proCates[key].products= products; // ni để push cái list product vô cái mảng chứa đối tượng của cate á 
       
@@ -132,11 +132,11 @@ class Menu extends Component {
   //   } )
   // }
 
-  getCatePro = () =>{
+  // getCatePro = () =>{
 
-  }
+  // }
   render() {
-    console.log(this.state.catePro);
+    //console.log(this.state.catePro);
     
     return (
       <nav className="td_content">

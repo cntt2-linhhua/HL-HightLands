@@ -31,9 +31,10 @@ class Routers extends Component {
           <Route exact path={ROUTES.MENUCATEGORY} component={Menu}/>
           <Route exact path={ROUTES.CHECKOUT} component={Checkout}/>
           <Route exact path={ROUTES.PRODUCT} component={Product}/>
-          <Route exact path={ROUTES.CATEGORY} render={()=>(<Category catePro= {this.props.catePro} />)}/>
+          <Route  path='/sanpham/:id' component={Category} />
+          {/* <Route path='/sanpham/:id' render={()=>(<Category catePro= {this.props.catePro} />)}/> */}
           {/* <Route exact path={ROUTES.CATEGORY} component={Category}/> */}
-            {/* <Route exact path={ROUTES.NEWS} component={}/> */}
+          {/* <Route exact path={ROUTES.NEWS} component={}/> */}
         </Switch>
       </div>
     );

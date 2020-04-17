@@ -9,11 +9,11 @@ class SecCategory extends Component {
         <div className="col-8 col-lg-8 ctc-left">
           <div className="tieude">
             <h1>
-              <Link>{this.props.nameCategory}</Link>
+              <Link to="ca_phe">{this.props.nameCategory}</Link>
             </h1>
           </div>
           <div className="anh">
-            <Link className="img">
+            <Link to="ca_phe" className="img">
               <img src={this.props.anhC} alt="Cà phê" />
             </Link>
           </div>
